@@ -24,7 +24,26 @@ let cosmosblue = Color(red: 0.094, green: 0.271, blue: 1.0, alpha: 1.0)
 let cosmosbkgd = Color(red: 0.078, green: 0.118, blue: 0.306, alpha: 1.0)
 
 class WorkSpace: CanvasController {
+    var layers = [UIScrollView]()
+    
     override func setup() {
-        //work your magic here
+        repeat {
+            let layer = UIScrollView(frame: view.frame)
+            // layer 好大 都是 10 倍的
+            layer.contentSize = CGSizeMake(layer.frame.size.width * 10, 0)
+            canvas.add(layer)
+            layers.append(layer)
+            
+            var center = Point(24, canvas.height / 2.0)
+            let layerNumber = 10 - layers.count
+            let font = Font(name: "AvenirNext-DemiBold", size: Double(layers.count + 1) * 8.0)!
+            
+            repeat {
+                let label = TextShape(text: "\(layerNumber)", font: font)!
+                label.center = center
+                center.x += 130.0
+                layer.add( label )
+            } while center.x < Double(layer.contentSize.width)
+        } while layers.count < 10
     }
 }

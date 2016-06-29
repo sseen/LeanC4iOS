@@ -1782,6 +1782,7 @@ SWIFT_CLASS("_TtC6Cosmos5Wedge")
 
 SWIFT_CLASS("_TtC6Cosmos9WorkSpace")
 @interface WorkSpace : CanvasController
+@property (nonatomic, copy) NSArray<UIScrollView *> * _Nonnull layers;
 - (void)setup;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

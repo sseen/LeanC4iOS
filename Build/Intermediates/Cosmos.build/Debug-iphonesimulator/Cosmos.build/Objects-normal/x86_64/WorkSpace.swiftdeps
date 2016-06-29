@@ -10,96 +10,688 @@ provides-member:
 - ["C6Cosmos9WorkSpace", ""]
 provides-dynamic-lookup:
 - "setup"
+- "layers"
 depends-top-level:
-- "cosmosblue"
-- "cosmosbkgd"
-- "CanvasController"
-- "WorkSpace"
-- "Color"
+- "UIScrollView"
 - "cosmosprpl"
+- "WorkSpace"
+- !private "*"
+- !private "CGSizeMake"
+- !private "<"
+- "CanvasController"
+- "cosmosbkgd"
+- !private "StringLiteralType"
+- !private "TextShape"
+- "Color"
+- !private "-"
+- !private "+"
+- "cosmosblue"
+- !private "Double"
+- !private "/"
+- !private "Font"
+- !private "+="
+- !private "Point"
 depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGSizeMake"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Font"]
+- !private ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "TextShape"]
+- ["Ps9AnyObject", "UIScrollView"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "canvas"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "contentSize"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "height"]
 - ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "layers"]
 - ["Ps9AnyObject", "setup"]
+- !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", ""]
+- ["Sa", "Generator"]
+- ["Sa", "Index"]
+- ["Sa", "SubSequence"]
+- ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- ["Ps23ArrayLiteralConvertible", "Generator"]
+- ["Ps23ArrayLiteralConvertible", "Index"]
+- ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- ["Ps23ArrayLiteralConvertible", "init"]
+- ["Vs10ArraySlice", "Generator"]
+- ["Vs10ArraySlice", "Index"]
+- ["Ps22BidirectionalIndexType", "Distance"]
+- ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- ["Ps21BitwiseOperationsType", "Distance"]
+- ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps11CVarArgType", "CGSizeMake"]
+- ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "Double"]
+- !private ["Ps11CVarArgType", "Font"]
+- ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "Point"]
+- !private ["Ps11CVarArgType", "TextShape"]
+- ["Ps11CVarArgType", "UIScrollView"]
+- !private ["Ps11CVarArgType", "add"]
+- !private ["Ps11CVarArgType", "canvas"]
+- !private ["Ps11CVarArgType", "center"]
+- !private ["Ps11CVarArgType", "contentSize"]
+- !private ["Ps11CVarArgType", "frame"]
+- !private ["Ps11CVarArgType", "height"]
 - ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "layers"]
 - ["Ps11CVarArgType", "setup"]
+- !private ["Ps11CVarArgType", "view"]
 - ["Ps11CVarArgType", ""]
+- !private ["C6Cosmos16CanvasController", "CGSizeMake"]
+- !private ["C6Cosmos16CanvasController", "Double"]
+- !private ["C6Cosmos16CanvasController", "Font"]
+- !private ["C6Cosmos16CanvasController", "Point"]
+- !private ["C6Cosmos16CanvasController", "TextShape"]
+- ["C6Cosmos16CanvasController", "UIScrollView"]
+- !private ["C6Cosmos16CanvasController", "canvas"]
 - ["C6Cosmos16CanvasController", "init"]
+- ["C6Cosmos16CanvasController", "layers"]
 - ["C6Cosmos16CanvasController", "setup"]
+- !private ["C6Cosmos16CanvasController", "view"]
 - ["C6Cosmos16CanvasController", ""]
+- !private ["Vs9Character", "deinit"]
+- ["Ps14CollectionType", "Generator"]
+- ["Ps14CollectionType", "Index"]
+- ["Ps14CollectionType", "SubSequence"]
+- ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "count"]
+- ["Ps14CollectionType", "init"]
 - ["C6Cosmos5Color", "init"]
+- ["Ps10Comparable", "Distance"]
+- ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSizeMake"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Font"]
+- ["Ps28CustomDebugStringConvertible", "Generator"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Point"]
+- ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "TextShape"]
+- ["Ps28CustomDebugStringConvertible", "UIScrollView"]
+- ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "canvas"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "contentSize"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "layers"]
 - ["Ps28CustomDebugStringConvertible", "setup"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGSizeMake"]
+- ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Font"]
+- ["Ps23CustomStringConvertible", "Generator"]
+- ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Point"]
+- ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "TextShape"]
+- ["Ps23CustomStringConvertible", "UIScrollView"]
+- ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "canvas"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "contentSize"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "height"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "layers"]
 - ["Ps23CustomStringConvertible", "setup"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "x"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "CGSizeMake"]
+- ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Font"]
+- ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "TextShape"]
+- ["Ps9Equatable", "UIScrollView"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "canvas"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "contentSize"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
 - ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "layers"]
 - ["Ps9Equatable", "setup"]
+- !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "x"]
 - ["Ps9Equatable", ""]
+- !private ["P6Cosmos11EventSource", "CGSizeMake"]
+- !private ["P6Cosmos11EventSource", "Double"]
+- !private ["P6Cosmos11EventSource", "Font"]
+- !private ["P6Cosmos11EventSource", "Point"]
+- !private ["P6Cosmos11EventSource", "TextShape"]
+- ["P6Cosmos11EventSource", "UIScrollView"]
+- !private ["P6Cosmos11EventSource", "add"]
+- !private ["P6Cosmos11EventSource", "canvas"]
+- !private ["P6Cosmos11EventSource", "center"]
+- !private ["P6Cosmos11EventSource", "height"]
 - ["P6Cosmos11EventSource", "init"]
+- ["P6Cosmos11EventSource", "layers"]
 - ["P6Cosmos11EventSource", "setup"]
+- !private ["P6Cosmos11EventSource", "view"]
 - ["P6Cosmos11EventSource", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["C6Cosmos4Font", "init"]
+- ["Ps16ForwardIndexType", "Distance"]
+- ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "CGSizeMake"]
+- ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Font"]
+- ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Point"]
+- !private ["Ps8Hashable", "TextShape"]
+- ["Ps8Hashable", "UIScrollView"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "canvas"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "contentSize"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "height"]
 - ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "layers"]
 - ["Ps8Hashable", "setup"]
+- !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", ""]
+- ["Ps9Indexable", "Generator"]
+- ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "count"]
+- ["Ps9Indexable", "init"]
+- ["Vs17IndexingGenerator", "Element"]
+- ["Si", "Distance"]
+- ["Si", "IntegerLiteralType"]
 - ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- ["Ps21IntegerArithmeticType", "Distance"]
+- ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps25IntegerLiteralConvertible", "Distance"]
+- ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- ["Ps11IntegerType", "Distance"]
+- ["Ps11IntegerType", "IntegerLiteralType"]
+- ["Ps14MirrorPathType", "Distance"]
+- ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- ["Ps21MutableCollectionType", "Generator"]
+- ["Ps21MutableCollectionType", "Index"]
+- ["Ps21MutableCollectionType", "SubSequence"]
+- ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "count"]
+- ["Ps21MutableCollectionType", "init"]
+- ["Ps16MutableIndexable", "Generator"]
+- ["Ps16MutableIndexable", "Index"]
+- ["Ps16MutableIndexable", "SubSequence"]
+- ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "count"]
+- ["Ps16MutableIndexable", "init"]
+- ["Ps16MutableSliceable", "Generator"]
+- ["Ps16MutableSliceable", "Index"]
+- ["Ps16MutableSliceable", "SubSequence"]
+- ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "count"]
+- ["Ps16MutableSliceable", "init"]
+- !private ["PSo8NSCoding", "CGSizeMake"]
+- !private ["PSo8NSCoding", "Double"]
+- !private ["PSo8NSCoding", "Font"]
+- !private ["PSo8NSCoding", "Point"]
+- !private ["PSo8NSCoding", "TextShape"]
+- ["PSo8NSCoding", "UIScrollView"]
+- !private ["PSo8NSCoding", "add"]
+- !private ["PSo8NSCoding", "canvas"]
+- !private ["PSo8NSCoding", "contentSize"]
+- !private ["PSo8NSCoding", "frame"]
 - ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "layers"]
 - ["PSo8NSCoding", "setup"]
+- !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "CGSizeMake"]
+- !private ["PSo26NSExtensionRequestHandling", "Double"]
+- !private ["PSo26NSExtensionRequestHandling", "Font"]
+- !private ["PSo26NSExtensionRequestHandling", "Point"]
+- !private ["PSo26NSExtensionRequestHandling", "TextShape"]
+- ["PSo26NSExtensionRequestHandling", "UIScrollView"]
+- !private ["PSo26NSExtensionRequestHandling", "canvas"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "layers"]
 - ["PSo26NSExtensionRequestHandling", "setup"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CGSizeMake"]
+- !private ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "Font"]
+- !private ["CSo8NSObject", "Point"]
+- !private ["CSo8NSObject", "TextShape"]
+- ["CSo8NSObject", "UIScrollView"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "canvas"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "contentSize"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "height"]
 - ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "layers"]
 - ["CSo8NSObject", "setup"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "CGSizeMake"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "Font"]
+- !private ["PSo16NSObjectProtocol", "Point"]
+- !private ["PSo16NSObjectProtocol", "TextShape"]
+- ["PSo16NSObjectProtocol", "UIScrollView"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "canvas"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "contentSize"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "height"]
 - ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "layers"]
 - ["PSo16NSObjectProtocol", "setup"]
+- !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["V6Cosmos5Point", "init"]
+- !private ["V6Cosmos5Point", "x"]
+- ["Ps21RandomAccessIndexType", "Distance"]
+- ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- ["Ps30RangeReplaceableCollectionType", "Generator"]
+- ["Ps30RangeReplaceableCollectionType", "Index"]
+- ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- ["Ps30RangeReplaceableCollectionType", "init"]
+- ["Ps12SequenceType", "Element"]
+- ["Ps12SequenceType", "Generator"]
+- ["Ps12SequenceType", "Index"]
+- ["Ps12SequenceType", "SubSequence"]
+- ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "count"]
+- ["Ps12SequenceType", "init"]
+- !private ["C6Cosmos5Shape", "center"]
+- ["Ps17SignedIntegerType", "Distance"]
+- ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- ["Ps16SignedNumberType", "Distance"]
+- ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Streamable", "init"]
+- ["Ps10Strideable", "Distance"]
+- ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["C6Cosmos9TextShape", "center"]
+- !private ["C6Cosmos9TextShape", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "add"]
+- !private ["PSo29UIAccessibilityIdentification", "contentSize"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "add"]
+- !private ["PSo12UIAppearance", "contentSize"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "CGSizeMake"]
+- !private ["PSo21UIAppearanceContainer", "Double"]
+- !private ["PSo21UIAppearanceContainer", "Font"]
+- !private ["PSo21UIAppearanceContainer", "Point"]
+- !private ["PSo21UIAppearanceContainer", "TextShape"]
+- ["PSo21UIAppearanceContainer", "UIScrollView"]
+- !private ["PSo21UIAppearanceContainer", "add"]
+- !private ["PSo21UIAppearanceContainer", "canvas"]
+- !private ["PSo21UIAppearanceContainer", "contentSize"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
 - ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "layers"]
 - ["PSo21UIAppearanceContainer", "setup"]
+- !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CGSizeMake"]
+- !private ["PSo18UIContentContainer", "Double"]
+- !private ["PSo18UIContentContainer", "Font"]
+- !private ["PSo18UIContentContainer", "Point"]
+- !private ["PSo18UIContentContainer", "TextShape"]
+- ["PSo18UIContentContainer", "UIScrollView"]
+- !private ["PSo18UIContentContainer", "canvas"]
 - ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "layers"]
 - ["PSo18UIContentContainer", "setup"]
+- !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "add"]
+- !private ["PSo17UICoordinateSpace", "contentSize"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "add"]
+- !private ["PSo13UIDynamicItem", "contentSize"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "CGSizeMake"]
+- !private ["PSo18UIFocusEnvironment", "Double"]
+- !private ["PSo18UIFocusEnvironment", "Font"]
+- !private ["PSo18UIFocusEnvironment", "Point"]
+- !private ["PSo18UIFocusEnvironment", "TextShape"]
+- ["PSo18UIFocusEnvironment", "UIScrollView"]
+- !private ["PSo18UIFocusEnvironment", "add"]
+- !private ["PSo18UIFocusEnvironment", "canvas"]
+- !private ["PSo18UIFocusEnvironment", "contentSize"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
 - ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "layers"]
 - ["PSo18UIFocusEnvironment", "setup"]
+- !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "CGSizeMake"]
+- !private ["CSo11UIResponder", "Double"]
+- !private ["CSo11UIResponder", "Font"]
+- !private ["CSo11UIResponder", "Point"]
+- !private ["CSo11UIResponder", "TextShape"]
+- ["CSo11UIResponder", "UIScrollView"]
+- !private ["CSo11UIResponder", "add"]
+- !private ["CSo11UIResponder", "canvas"]
+- !private ["CSo11UIResponder", "contentSize"]
+- !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "layers"]
 - ["CSo11UIResponder", "setup"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["CSo12UIScrollView", "add"]
+- !private ["CSo12UIScrollView", "contentSize"]
+- !private ["CSo12UIScrollView", "frame"]
+- !private ["CSo12UIScrollView", "init"]
+- !private ["PSo16UIStateRestoring", "CGSizeMake"]
+- !private ["PSo16UIStateRestoring", "Double"]
+- !private ["PSo16UIStateRestoring", "Font"]
+- !private ["PSo16UIStateRestoring", "Point"]
+- !private ["PSo16UIStateRestoring", "TextShape"]
+- ["PSo16UIStateRestoring", "UIScrollView"]
+- !private ["PSo16UIStateRestoring", "canvas"]
 - ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "layers"]
 - ["PSo16UIStateRestoring", "setup"]
+- !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "CGSizeMake"]
+- !private ["PSo18UITraitEnvironment", "Double"]
+- !private ["PSo18UITraitEnvironment", "Font"]
+- !private ["PSo18UITraitEnvironment", "Point"]
+- !private ["PSo18UITraitEnvironment", "TextShape"]
+- ["PSo18UITraitEnvironment", "UIScrollView"]
+- !private ["PSo18UITraitEnvironment", "add"]
+- !private ["PSo18UITraitEnvironment", "canvas"]
+- !private ["PSo18UITraitEnvironment", "contentSize"]
+- !private ["PSo18UITraitEnvironment", "frame"]
 - ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "layers"]
 - ["PSo18UITraitEnvironment", "setup"]
+- !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "add"]
+- !private ["CSo6UIView", "contentSize"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo16UIViewController", "CGSizeMake"]
+- !private ["CSo16UIViewController", "Double"]
+- !private ["CSo16UIViewController", "Font"]
+- !private ["CSo16UIViewController", "Point"]
+- !private ["CSo16UIViewController", "TextShape"]
+- ["CSo16UIViewController", "UIScrollView"]
+- !private ["CSo16UIViewController", "canvas"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "layers"]
 - ["CSo16UIViewController", "setup"]
+- !private ["CSo16UIViewController", "view"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C6Cosmos4View", "add"]
+- !private ["C6Cosmos4View", "center"]
+- !private ["C6Cosmos4View", "height"]
+- !private ["C6Cosmos9WorkSpace", "CGSizeMake"]
+- !private ["C6Cosmos9WorkSpace", "Double"]
+- !private ["C6Cosmos9WorkSpace", "Font"]
+- !private ["C6Cosmos9WorkSpace", "Point"]
+- !private ["C6Cosmos9WorkSpace", "TextShape"]
+- ["C6Cosmos9WorkSpace", "UIScrollView"]
+- !private ["C6Cosmos9WorkSpace", "canvas"]
 - ["C6Cosmos9WorkSpace", "deinit"]
 - ["C6Cosmos9WorkSpace", "init"]
+- ["C6Cosmos9WorkSpace", "layers"]
 - ["C6Cosmos9WorkSpace", "setup"]
+- !private ["C6Cosmos9WorkSpace", "view"]
+- ["Ps10_ArrayType", "Generator"]
+- ["Ps10_ArrayType", "Index"]
+- ["Ps10_ArrayType", "SubSequence"]
+- ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "count"]
+- ["Ps10_ArrayType", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- ["Ps24_DestructorSafeContainer", "Generator"]
+- ["Ps24_DestructorSafeContainer", "Index"]
+- ["Ps24_DestructorSafeContainer", "SubSequence"]
+- ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- ["Ps14_Incrementable", "Distance"]
+- ["Ps14_Incrementable", "IntegerLiteralType"]
+- ["Ps22_IntegerArithmeticType", "Distance"]
+- ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps12_IntegerType", "Distance"]
+- ["Ps12_IntegerType", "IntegerLiteralType"]
+- ["Ps21_ObjectiveCBridgeable", "Distance"]
+- ["Ps21_ObjectiveCBridgeable", "Generator"]
+- ["Ps21_ObjectiveCBridgeable", "Index"]
+- ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps22_RandomAccessAmbiguity", "Distance"]
+- ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Distance"]
+- ["Ps12_Reflectable", "Generator"]
+- ["Ps12_Reflectable", "Index"]
+- ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "SubSequence"]
+- ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "add"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "contentSize"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "frame"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "size"]
+- !private ["Ps12_Reflectable", "width"]
+- ["Ps18_SignedIntegerType", "Distance"]
+- ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 depends-nominal:
+- !private "Ps16AbsoluteValuable"
 - "Ps9AnyObject"
+- "Sa"
+- "Ps23ArrayLiteralConvertible"
+- "Vs10ArraySlice"
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
 - "Ps11CVarArgType"
 - "C6Cosmos16CanvasController"
+- !private "Vs9Character"
+- "Ps14CollectionType"
 - "C6Cosmos5Color"
+- "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
+- !private "Sd"
 - "Ps9Equatable"
 - "P6Cosmos11EventSource"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "C6Cosmos4Font"
+- "Ps16ForwardIndexType"
+- "Ps13GeneratorType"
 - "Ps8Hashable"
+- "Ps9Indexable"
+- "Vs17IndexingGenerator"
 - "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- "Ps14MirrorPathType"
+- "Ps21MutableCollectionType"
+- "Ps16MutableIndexable"
+- "Ps16MutableSliceable"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16OutputStreamType"
+- !private "V6Cosmos5Point"
+- "Ps21RandomAccessIndexType"
+- "Ps30RangeReplaceableCollectionType"
+- "Ps12SequenceType"
+- !private "C6Cosmos5Shape"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "C6Cosmos9TextShape"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
 - "CSo11UIResponder"
+- !private "CSo12UIScrollView"
 - "PSo16UIStateRestoring"
 - "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "C6Cosmos4View"
 - "C6Cosmos9WorkSpace"
+- "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps24_DestructorSafeContainer"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -113,4 +705,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
-interface-hash: "d68c25825babef67ba3a3efebff722e7"
+interface-hash: "ded3bee9fade2be3040ace9e4b394032"
