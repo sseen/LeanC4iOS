@@ -34,16 +34,15 @@ class WorkSpace: CanvasController {
             canvas.add(layer)
             layers.append(layer)
             
-            var center = Point(24, canvas.height / 2.0)
-            let layerNumber = 10 - layers.count
-            let font = Font(name: "AvenirNext-DemiBold", size: Double(layers.count + 1) * 8.0)!
-            
-            repeat {
-                let label = TextShape(text: "\(layerNumber)", font: font)!
-                label.center = center
-                center.x += 130.0
-                layer.add( label )
-            } while center.x < Double(layer.contentSize.width)
+            let starCount = layers.count * 15
+            canvas.backgroundColor = black
+            for _ in 0..<starCount {
+                let img = Image("6smallStar")
+                img?.constrainsProportions = true
+                img?.width *= 0.1 * Double(layers.count + 1)
+                img?.center = Point(Double(layer.contentSize.width)*random01(), canvas.height*random01())
+                layer.add(img)
+            }
             
             layer.tag += 1
         } while layers.count < 10

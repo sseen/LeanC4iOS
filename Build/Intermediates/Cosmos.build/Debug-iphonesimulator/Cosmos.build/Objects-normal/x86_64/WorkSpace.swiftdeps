@@ -9,52 +9,56 @@ provides-nominal:
 provides-member:
 - ["C6Cosmos9WorkSpace", ""]
 provides-dynamic-lookup:
-- "observeValueForKeyPath"
-- "setup"
 - "layers"
+- "setup"
+- "observeValueForKeyPath"
 depends-top-level:
-- !private "CGSizeMake"
+- !private "+="
+- "Color"
+- "Void"
+- !private "+"
 - "String"
-- !private "*"
+- !private "BooleanLiteralType"
+- !private "NSKeyValueObservingOptions"
+- "cosmosbkgd"
+- "AnyObject"
+- "CanvasController"
+- "UnsafeMutablePointer"
+- !private "-"
+- "cosmosblue"
 - !private "Double"
+- !private "Image"
+- !private "CGFloat"
 - !private "..<"
 - "WorkSpace"
-- !private "NSKeyValueObservingOptions"
-- "Void"
-- !private "Font"
-- "UIScrollView"
-- "AnyObject"
-- !private "CGPointMake"
-- "cosmosbkgd"
-- !private "StringLiteralType"
-- "CanvasController"
-- "Color"
-- !private "-"
-- !private "+"
-- !private "<"
 - !private "Point"
-- "cosmosblue"
-- !private "+="
-- !private "CGFloat"
-- !private "/"
+- !private "StringLiteralType"
+- !private "black"
+- !private "<"
 - "cosmosprpl"
-- !private "TextShape"
-- "UnsafeMutablePointer"
+- "UIScrollView"
+- !private "CGSizeMake"
+- !private "*"
+- !private "*="
+- !private "random01"
+- !private "CGPointMake"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGFloat"]
 - !private ["Ps9AnyObject", "CGPointMake"]
 - !private ["Ps9AnyObject", "CGSizeMake"]
 - !private ["Ps9AnyObject", "Double"]
-- !private ["Ps9AnyObject", "Font"]
+- !private ["Ps9AnyObject", "Image"]
 - !private ["Ps9AnyObject", "NSKeyValueObservingOptions"]
 - !private ["Ps9AnyObject", "Point"]
-- !private ["Ps9AnyObject", "TextShape"]
 - ["Ps9AnyObject", "UIScrollView"]
 - !private ["Ps9AnyObject", "add"]
 - !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "black"]
 - !private ["Ps9AnyObject", "canvas"]
 - !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "constrainsProportions"]
 - !private ["Ps9AnyObject", "contentOffset"]
 - !private ["Ps9AnyObject", "contentSize"]
 - !private ["Ps9AnyObject", "frame"]
@@ -62,9 +66,11 @@ depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "layers"]
 - ["Ps9AnyObject", "observeValueForKeyPath"]
+- !private ["Ps9AnyObject", "random01"]
 - ["Ps9AnyObject", "setup"]
 - !private ["Ps9AnyObject", "tag"]
 - !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "width"]
 - ["Ps9AnyObject", ""]
 - ["Sa", "Generator"]
 - ["Sa", "Index"]
@@ -97,7 +103,6 @@ depends-member:
 - !private ["Ps21BitwiseOperationsType", "Stride"]
 - !private ["Ps21BitwiseOperationsType", "_DisabledRangeIndex"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["Sb", "deinit"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
@@ -110,18 +115,20 @@ depends-member:
 - !private ["Ps11CVarArgType", "CGSizeMake"]
 - ["Ps11CVarArgType", "Distance"]
 - !private ["Ps11CVarArgType", "Double"]
-- !private ["Ps11CVarArgType", "Font"]
+- !private ["Ps11CVarArgType", "Image"]
 - ["Ps11CVarArgType", "IntegerLiteralType"]
 - !private ["Ps11CVarArgType", "NSKeyValueObservingOptions"]
 - !private ["Ps11CVarArgType", "Point"]
 - !private ["Ps11CVarArgType", "Stride"]
-- !private ["Ps11CVarArgType", "TextShape"]
 - ["Ps11CVarArgType", "UIScrollView"]
 - !private ["Ps11CVarArgType", "_DisabledRangeIndex"]
 - !private ["Ps11CVarArgType", "add"]
 - !private ["Ps11CVarArgType", "addObserver"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "black"]
 - !private ["Ps11CVarArgType", "canvas"]
 - !private ["Ps11CVarArgType", "center"]
+- !private ["Ps11CVarArgType", "constrainsProportions"]
 - !private ["Ps11CVarArgType", "contentOffset"]
 - !private ["Ps11CVarArgType", "contentSize"]
 - !private ["Ps11CVarArgType", "frame"]
@@ -129,31 +136,33 @@ depends-member:
 - ["Ps11CVarArgType", "init"]
 - ["Ps11CVarArgType", "layers"]
 - ["Ps11CVarArgType", "observeValueForKeyPath"]
+- !private ["Ps11CVarArgType", "random01"]
 - ["Ps11CVarArgType", "setup"]
 - !private ["Ps11CVarArgType", "tag"]
 - !private ["Ps11CVarArgType", "view"]
+- !private ["Ps11CVarArgType", "width"]
 - ["Ps11CVarArgType", ""]
 - ["C6Cosmos16CanvasController", "AnyObject"]
 - !private ["C6Cosmos16CanvasController", "CGFloat"]
 - !private ["C6Cosmos16CanvasController", "CGPointMake"]
 - !private ["C6Cosmos16CanvasController", "CGSizeMake"]
 - !private ["C6Cosmos16CanvasController", "Double"]
-- !private ["C6Cosmos16CanvasController", "Font"]
+- !private ["C6Cosmos16CanvasController", "Image"]
 - !private ["C6Cosmos16CanvasController", "NSKeyValueObservingOptions"]
 - !private ["C6Cosmos16CanvasController", "Point"]
 - ["C6Cosmos16CanvasController", "String"]
-- !private ["C6Cosmos16CanvasController", "TextShape"]
 - ["C6Cosmos16CanvasController", "UIScrollView"]
 - ["C6Cosmos16CanvasController", "UnsafeMutablePointer"]
 - ["C6Cosmos16CanvasController", "Void"]
+- !private ["C6Cosmos16CanvasController", "black"]
 - !private ["C6Cosmos16CanvasController", "canvas"]
 - ["C6Cosmos16CanvasController", "init"]
 - ["C6Cosmos16CanvasController", "layers"]
 - ["C6Cosmos16CanvasController", "observeValueForKeyPath"]
+- !private ["C6Cosmos16CanvasController", "random01"]
 - ["C6Cosmos16CanvasController", "setup"]
 - !private ["C6Cosmos16CanvasController", "view"]
 - ["C6Cosmos16CanvasController", ""]
-- !private ["Vs9Character", "deinit"]
 - ["Ps14CollectionType", "Generator"]
 - ["Ps14CollectionType", "Index"]
 - ["Ps14CollectionType", "SubSequence"]
@@ -173,21 +182,23 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "CGPointMake"]
 - !private ["Ps28CustomDebugStringConvertible", "CGSizeMake"]
 - !private ["Ps28CustomDebugStringConvertible", "Double"]
-- !private ["Ps28CustomDebugStringConvertible", "Font"]
 - ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Image"]
 - ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "NSKeyValueObservingOptions"]
 - !private ["Ps28CustomDebugStringConvertible", "Point"]
 - ["Ps28CustomDebugStringConvertible", "Some"]
 - ["Ps28CustomDebugStringConvertible", "SubSequence"]
-- !private ["Ps28CustomDebugStringConvertible", "TextShape"]
 - ["Ps28CustomDebugStringConvertible", "UIScrollView"]
 - ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "add"]
 - !private ["Ps28CustomDebugStringConvertible", "addObserver"]
 - !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "black"]
 - !private ["Ps28CustomDebugStringConvertible", "canvas"]
 - !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "constrainsProportions"]
 - !private ["Ps28CustomDebugStringConvertible", "contentOffset"]
 - !private ["Ps28CustomDebugStringConvertible", "contentSize"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
@@ -197,25 +208,26 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "last"]
 - ["Ps28CustomDebugStringConvertible", "layers"]
 - ["Ps28CustomDebugStringConvertible", "observeValueForKeyPath"]
+- !private ["Ps28CustomDebugStringConvertible", "random01"]
 - ["Ps28CustomDebugStringConvertible", "setup"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "tag"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps23CustomStringConvertible", "CGFloat"]
 - !private ["Ps23CustomStringConvertible", "CGPointMake"]
 - !private ["Ps23CustomStringConvertible", "CGSizeMake"]
 - ["Ps23CustomStringConvertible", "Distance"]
 - !private ["Ps23CustomStringConvertible", "Double"]
-- !private ["Ps23CustomStringConvertible", "Font"]
 - ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Image"]
 - ["Ps23CustomStringConvertible", "Index"]
 - ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "NSKeyValueObservingOptions"]
 - !private ["Ps23CustomStringConvertible", "Point"]
 - !private ["Ps23CustomStringConvertible", "Stride"]
 - ["Ps23CustomStringConvertible", "SubSequence"]
-- !private ["Ps23CustomStringConvertible", "TextShape"]
 - ["Ps23CustomStringConvertible", "UIScrollView"]
 - !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
 - ["Ps23CustomStringConvertible", "_Element"]
@@ -223,8 +235,11 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "add"]
 - !private ["Ps23CustomStringConvertible", "addObserver"]
 - !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "black"]
 - !private ["Ps23CustomStringConvertible", "canvas"]
 - !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "constrainsProportions"]
 - !private ["Ps23CustomStringConvertible", "contentOffset"]
 - !private ["Ps23CustomStringConvertible", "contentSize"]
 - !private ["Ps23CustomStringConvertible", "count"]
@@ -234,34 +249,36 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "last"]
 - ["Ps23CustomStringConvertible", "layers"]
 - ["Ps23CustomStringConvertible", "observeValueForKeyPath"]
+- !private ["Ps23CustomStringConvertible", "random01"]
 - ["Ps23CustomStringConvertible", "setup"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "tag"]
 - !private ["Ps23CustomStringConvertible", "view"]
-- !private ["Ps23CustomStringConvertible", "x"]
+- !private ["Ps23CustomStringConvertible", "width"]
 - ["Ps23CustomStringConvertible", ""]
-- !private ["Sd", "deinit"]
 - !private ["Sd", "init"]
 - !private ["Ps9Equatable", "CGFloat"]
 - !private ["Ps9Equatable", "CGPointMake"]
 - !private ["Ps9Equatable", "CGSizeMake"]
 - ["Ps9Equatable", "Distance"]
 - !private ["Ps9Equatable", "Double"]
-- !private ["Ps9Equatable", "Font"]
 - !private ["Ps9Equatable", "Generator"]
+- !private ["Ps9Equatable", "Image"]
 - ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "NSKeyValueObservingOptions"]
 - !private ["Ps9Equatable", "New"]
 - !private ["Ps9Equatable", "Point"]
 - !private ["Ps9Equatable", "Stride"]
-- !private ["Ps9Equatable", "TextShape"]
 - ["Ps9Equatable", "UIScrollView"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "add"]
 - !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "black"]
 - !private ["Ps9Equatable", "canvas"]
 - !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "constrainsProportions"]
 - !private ["Ps9Equatable", "contentOffset"]
 - !private ["Ps9Equatable", "contentSize"]
 - !private ["Ps9Equatable", "frame"]
@@ -269,6 +286,7 @@ depends-member:
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "layers"]
 - ["Ps9Equatable", "observeValueForKeyPath"]
+- !private ["Ps9Equatable", "random01"]
 - ["Ps9Equatable", "setup"]
 - !private ["Ps9Equatable", "size"]
 - !private ["Ps9Equatable", "tag"]
@@ -280,26 +298,27 @@ depends-member:
 - !private ["P6Cosmos11EventSource", "CGPointMake"]
 - !private ["P6Cosmos11EventSource", "CGSizeMake"]
 - !private ["P6Cosmos11EventSource", "Double"]
-- !private ["P6Cosmos11EventSource", "Font"]
+- !private ["P6Cosmos11EventSource", "Image"]
 - !private ["P6Cosmos11EventSource", "NSKeyValueObservingOptions"]
 - !private ["P6Cosmos11EventSource", "Point"]
-- !private ["P6Cosmos11EventSource", "TextShape"]
 - ["P6Cosmos11EventSource", "UIScrollView"]
 - !private ["P6Cosmos11EventSource", "add"]
+- !private ["P6Cosmos11EventSource", "backgroundColor"]
+- !private ["P6Cosmos11EventSource", "black"]
 - !private ["P6Cosmos11EventSource", "canvas"]
 - !private ["P6Cosmos11EventSource", "center"]
+- !private ["P6Cosmos11EventSource", "constrainsProportions"]
 - !private ["P6Cosmos11EventSource", "height"]
 - ["P6Cosmos11EventSource", "init"]
 - ["P6Cosmos11EventSource", "layers"]
 - ["P6Cosmos11EventSource", "observeValueForKeyPath"]
+- !private ["P6Cosmos11EventSource", "random01"]
 - ["P6Cosmos11EventSource", "setup"]
 - !private ["P6Cosmos11EventSource", "view"]
+- !private ["P6Cosmos11EventSource", "width"]
 - ["P6Cosmos11EventSource", ""]
-- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
-- !private ["Sf", "deinit"]
 - !private ["Ps23FloatLiteralConvertible", "init"]
 - !private ["Ps17FloatingPointType", "init"]
-- !private ["C6Cosmos4Font", "init"]
 - ["Ps16ForwardIndexType", "Distance"]
 - ["Ps16ForwardIndexType", "IntegerLiteralType"]
 - !private ["Ps16ForwardIndexType", "Stride"]
@@ -312,19 +331,21 @@ depends-member:
 - !private ["Ps8Hashable", "CGSizeMake"]
 - ["Ps8Hashable", "Distance"]
 - !private ["Ps8Hashable", "Double"]
-- !private ["Ps8Hashable", "Font"]
+- !private ["Ps8Hashable", "Image"]
 - ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "NSKeyValueObservingOptions"]
 - !private ["Ps8Hashable", "Point"]
 - !private ["Ps8Hashable", "Stride"]
-- !private ["Ps8Hashable", "TextShape"]
 - ["Ps8Hashable", "UIScrollView"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "add"]
 - !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "black"]
 - !private ["Ps8Hashable", "canvas"]
 - !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "constrainsProportions"]
 - !private ["Ps8Hashable", "contentOffset"]
 - !private ["Ps8Hashable", "contentSize"]
 - !private ["Ps8Hashable", "frame"]
@@ -332,10 +353,16 @@ depends-member:
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "layers"]
 - ["Ps8Hashable", "observeValueForKeyPath"]
+- !private ["Ps8Hashable", "random01"]
 - ["Ps8Hashable", "setup"]
 - !private ["Ps8Hashable", "tag"]
 - !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "width"]
 - ["Ps8Hashable", ""]
+- !private ["C6Cosmos5Image", "center"]
+- !private ["C6Cosmos5Image", "constrainsProportions"]
+- !private ["C6Cosmos5Image", "init"]
+- !private ["C6Cosmos5Image", "width"]
 - ["Ps9Indexable", "Generator"]
 - ["Ps9Indexable", "Index"]
 - ["Ps9Indexable", "SubSequence"]
@@ -351,10 +378,6 @@ depends-member:
 - !private ["Si", "Stride"]
 - !private ["Si", "_DisabledRangeIndex"]
 - ["Si", "deinit"]
-- !private ["Vs5Int16", "deinit"]
-- !private ["Vs5Int32", "deinit"]
-- !private ["Vs5Int64", "deinit"]
-- !private ["Vs4Int8", "deinit"]
 - ["Ps21IntegerArithmeticType", "Distance"]
 - ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
 - !private ["Ps21IntegerArithmeticType", "Stride"]
@@ -373,7 +396,6 @@ depends-member:
 - ["Ps14MirrorPathType", "IntegerLiteralType"]
 - !private ["Ps14MirrorPathType", "Stride"]
 - !private ["Ps14MirrorPathType", "_DisabledRangeIndex"]
-- !private ["Ps14MirrorPathType", "init"]
 - ["Ps21MutableCollectionType", "Generator"]
 - ["Ps21MutableCollectionType", "Index"]
 - ["Ps21MutableCollectionType", "SubSequence"]
@@ -405,13 +427,13 @@ depends-member:
 - !private ["PSo8NSCoding", "CGPointMake"]
 - !private ["PSo8NSCoding", "CGSizeMake"]
 - !private ["PSo8NSCoding", "Double"]
-- !private ["PSo8NSCoding", "Font"]
+- !private ["PSo8NSCoding", "Image"]
 - !private ["PSo8NSCoding", "NSKeyValueObservingOptions"]
 - !private ["PSo8NSCoding", "Point"]
-- !private ["PSo8NSCoding", "TextShape"]
 - ["PSo8NSCoding", "UIScrollView"]
 - !private ["PSo8NSCoding", "add"]
 - !private ["PSo8NSCoding", "addObserver"]
+- !private ["PSo8NSCoding", "black"]
 - !private ["PSo8NSCoding", "canvas"]
 - !private ["PSo8NSCoding", "contentOffset"]
 - !private ["PSo8NSCoding", "contentSize"]
@@ -419,46 +441,52 @@ depends-member:
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "layers"]
 - ["PSo8NSCoding", "observeValueForKeyPath"]
+- !private ["PSo8NSCoding", "random01"]
 - ["PSo8NSCoding", "setup"]
 - !private ["PSo8NSCoding", "tag"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "center"]
+- !private ["PSo9NSCopying", "constrainsProportions"]
 - !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "width"]
 - !private ["PSo26NSExtensionRequestHandling", "CGFloat"]
 - !private ["PSo26NSExtensionRequestHandling", "CGPointMake"]
 - !private ["PSo26NSExtensionRequestHandling", "CGSizeMake"]
 - !private ["PSo26NSExtensionRequestHandling", "Double"]
-- !private ["PSo26NSExtensionRequestHandling", "Font"]
+- !private ["PSo26NSExtensionRequestHandling", "Image"]
 - !private ["PSo26NSExtensionRequestHandling", "NSKeyValueObservingOptions"]
 - !private ["PSo26NSExtensionRequestHandling", "Point"]
-- !private ["PSo26NSExtensionRequestHandling", "TextShape"]
 - ["PSo26NSExtensionRequestHandling", "UIScrollView"]
+- !private ["PSo26NSExtensionRequestHandling", "black"]
 - !private ["PSo26NSExtensionRequestHandling", "canvas"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "layers"]
 - ["PSo26NSExtensionRequestHandling", "observeValueForKeyPath"]
+- !private ["PSo26NSExtensionRequestHandling", "random01"]
 - ["PSo26NSExtensionRequestHandling", "setup"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["VSC26NSKeyValueObservingOptions", "New"]
-- !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "AnyObject"]
 - !private ["CSo8NSObject", "CGFloat"]
 - !private ["CSo8NSObject", "CGPointMake"]
 - !private ["CSo8NSObject", "CGSizeMake"]
 - !private ["CSo8NSObject", "Double"]
-- !private ["CSo8NSObject", "Font"]
+- !private ["CSo8NSObject", "Image"]
 - !private ["CSo8NSObject", "NSKeyValueObservingOptions"]
 - !private ["CSo8NSObject", "Point"]
 - ["CSo8NSObject", "String"]
-- !private ["CSo8NSObject", "TextShape"]
 - ["CSo8NSObject", "UIScrollView"]
 - ["CSo8NSObject", "UnsafeMutablePointer"]
 - ["CSo8NSObject", "Void"]
 - !private ["CSo8NSObject", "add"]
 - !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "black"]
 - !private ["CSo8NSObject", "canvas"]
 - !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "constrainsProportions"]
 - !private ["CSo8NSObject", "contentOffset"]
 - !private ["CSo8NSObject", "contentSize"]
 - !private ["CSo8NSObject", "frame"]
@@ -466,22 +494,26 @@ depends-member:
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "layers"]
 - ["CSo8NSObject", "observeValueForKeyPath"]
+- !private ["CSo8NSObject", "random01"]
 - ["CSo8NSObject", "setup"]
 - !private ["CSo8NSObject", "tag"]
 - !private ["CSo8NSObject", "view"]
+- !private ["CSo8NSObject", "width"]
 - !private ["PSo16NSObjectProtocol", "CGFloat"]
 - !private ["PSo16NSObjectProtocol", "CGPointMake"]
 - !private ["PSo16NSObjectProtocol", "CGSizeMake"]
 - !private ["PSo16NSObjectProtocol", "Double"]
-- !private ["PSo16NSObjectProtocol", "Font"]
+- !private ["PSo16NSObjectProtocol", "Image"]
 - !private ["PSo16NSObjectProtocol", "NSKeyValueObservingOptions"]
 - !private ["PSo16NSObjectProtocol", "Point"]
-- !private ["PSo16NSObjectProtocol", "TextShape"]
 - ["PSo16NSObjectProtocol", "UIScrollView"]
 - !private ["PSo16NSObjectProtocol", "add"]
 - !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "black"]
 - !private ["PSo16NSObjectProtocol", "canvas"]
 - !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "constrainsProportions"]
 - !private ["PSo16NSObjectProtocol", "contentOffset"]
 - !private ["PSo16NSObjectProtocol", "contentSize"]
 - !private ["PSo16NSObjectProtocol", "frame"]
@@ -489,18 +521,16 @@ depends-member:
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "layers"]
 - ["PSo16NSObjectProtocol", "observeValueForKeyPath"]
+- !private ["PSo16NSObjectProtocol", "random01"]
 - ["PSo16NSObjectProtocol", "setup"]
 - !private ["PSo16NSObjectProtocol", "tag"]
 - !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "width"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["PSo14NSSecureCoding", "init"]
-- !private ["CSo8NSString", "init"]
 - ["Ps21NilLiteralConvertible", "Some"]
 - !private ["Ps13OptionSetType", "New"]
 - ["Sq", "Some"]
-- !private ["Ps16OutputStreamType", "init"]
 - !private ["V6Cosmos5Point", "init"]
-- !private ["V6Cosmos5Point", "x"]
 - ["Ps21RandomAccessIndexType", "Distance"]
 - ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["Ps21RandomAccessIndexType", "Stride"]
@@ -528,7 +558,6 @@ depends-member:
 - !private ["Ps12SequenceType", "last"]
 - !private ["Ps12SequenceType", "subscript"]
 - !private ["Ps14SetAlgebraType", "New"]
-- !private ["C6Cosmos5Shape", "center"]
 - ["Ps17SignedIntegerType", "Distance"]
 - ["Ps17SignedIntegerType", "IntegerLiteralType"]
 - !private ["Ps17SignedIntegerType", "Stride"]
@@ -542,17 +571,11 @@ depends-member:
 - !private ["Vs5Slice", "Index"]
 - !private ["Vs5Slice", "SubSequence"]
 - !private ["Vs5Slice", "_Element"]
-- !private ["Ps10Streamable", "init"]
 - ["Ps10Strideable", "Distance"]
 - ["Ps10Strideable", "IntegerLiteralType"]
 - !private ["Ps10Strideable", "Stride"]
 - !private ["Ps10Strideable", "_DisabledRangeIndex"]
 - !private ["Ps10Strideable", "init"]
-- !private ["SS", "init"]
-- !private ["Ps30StringInterpolationConvertible", "init"]
-- !private ["Ps24StringLiteralConvertible", "init"]
-- !private ["C6Cosmos9TextShape", "center"]
-- !private ["C6Cosmos9TextShape", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "add"]
 - !private ["PSo29UIAccessibilityIdentification", "addObserver"]
 - !private ["PSo29UIAccessibilityIdentification", "contentOffset"]
@@ -571,13 +594,13 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "CGPointMake"]
 - !private ["PSo21UIAppearanceContainer", "CGSizeMake"]
 - !private ["PSo21UIAppearanceContainer", "Double"]
-- !private ["PSo21UIAppearanceContainer", "Font"]
+- !private ["PSo21UIAppearanceContainer", "Image"]
 - !private ["PSo21UIAppearanceContainer", "NSKeyValueObservingOptions"]
 - !private ["PSo21UIAppearanceContainer", "Point"]
-- !private ["PSo21UIAppearanceContainer", "TextShape"]
 - ["PSo21UIAppearanceContainer", "UIScrollView"]
 - !private ["PSo21UIAppearanceContainer", "add"]
 - !private ["PSo21UIAppearanceContainer", "addObserver"]
+- !private ["PSo21UIAppearanceContainer", "black"]
 - !private ["PSo21UIAppearanceContainer", "canvas"]
 - !private ["PSo21UIAppearanceContainer", "contentOffset"]
 - !private ["PSo21UIAppearanceContainer", "contentSize"]
@@ -585,6 +608,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "layers"]
 - ["PSo21UIAppearanceContainer", "observeValueForKeyPath"]
+- !private ["PSo21UIAppearanceContainer", "random01"]
 - ["PSo21UIAppearanceContainer", "setup"]
 - !private ["PSo21UIAppearanceContainer", "tag"]
 - !private ["PSo21UIAppearanceContainer", "view"]
@@ -593,15 +617,16 @@ depends-member:
 - !private ["PSo18UIContentContainer", "CGPointMake"]
 - !private ["PSo18UIContentContainer", "CGSizeMake"]
 - !private ["PSo18UIContentContainer", "Double"]
-- !private ["PSo18UIContentContainer", "Font"]
+- !private ["PSo18UIContentContainer", "Image"]
 - !private ["PSo18UIContentContainer", "NSKeyValueObservingOptions"]
 - !private ["PSo18UIContentContainer", "Point"]
-- !private ["PSo18UIContentContainer", "TextShape"]
 - ["PSo18UIContentContainer", "UIScrollView"]
+- !private ["PSo18UIContentContainer", "black"]
 - !private ["PSo18UIContentContainer", "canvas"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "layers"]
 - ["PSo18UIContentContainer", "observeValueForKeyPath"]
+- !private ["PSo18UIContentContainer", "random01"]
 - ["PSo18UIContentContainer", "setup"]
 - !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", ""]
@@ -623,13 +648,13 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "CGPointMake"]
 - !private ["PSo18UIFocusEnvironment", "CGSizeMake"]
 - !private ["PSo18UIFocusEnvironment", "Double"]
-- !private ["PSo18UIFocusEnvironment", "Font"]
+- !private ["PSo18UIFocusEnvironment", "Image"]
 - !private ["PSo18UIFocusEnvironment", "NSKeyValueObservingOptions"]
 - !private ["PSo18UIFocusEnvironment", "Point"]
-- !private ["PSo18UIFocusEnvironment", "TextShape"]
 - ["PSo18UIFocusEnvironment", "UIScrollView"]
 - !private ["PSo18UIFocusEnvironment", "add"]
 - !private ["PSo18UIFocusEnvironment", "addObserver"]
+- !private ["PSo18UIFocusEnvironment", "black"]
 - !private ["PSo18UIFocusEnvironment", "canvas"]
 - !private ["PSo18UIFocusEnvironment", "contentOffset"]
 - !private ["PSo18UIFocusEnvironment", "contentSize"]
@@ -637,6 +662,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "layers"]
 - ["PSo18UIFocusEnvironment", "observeValueForKeyPath"]
+- !private ["PSo18UIFocusEnvironment", "random01"]
 - ["PSo18UIFocusEnvironment", "setup"]
 - !private ["PSo18UIFocusEnvironment", "tag"]
 - !private ["PSo18UIFocusEnvironment", "view"]
@@ -646,16 +672,16 @@ depends-member:
 - !private ["CSo11UIResponder", "CGPointMake"]
 - !private ["CSo11UIResponder", "CGSizeMake"]
 - !private ["CSo11UIResponder", "Double"]
-- !private ["CSo11UIResponder", "Font"]
+- !private ["CSo11UIResponder", "Image"]
 - !private ["CSo11UIResponder", "NSKeyValueObservingOptions"]
 - !private ["CSo11UIResponder", "Point"]
 - ["CSo11UIResponder", "String"]
-- !private ["CSo11UIResponder", "TextShape"]
 - ["CSo11UIResponder", "UIScrollView"]
 - ["CSo11UIResponder", "UnsafeMutablePointer"]
 - ["CSo11UIResponder", "Void"]
 - !private ["CSo11UIResponder", "add"]
 - !private ["CSo11UIResponder", "addObserver"]
+- !private ["CSo11UIResponder", "black"]
 - !private ["CSo11UIResponder", "canvas"]
 - !private ["CSo11UIResponder", "contentOffset"]
 - !private ["CSo11UIResponder", "contentSize"]
@@ -663,6 +689,7 @@ depends-member:
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "layers"]
 - ["CSo11UIResponder", "observeValueForKeyPath"]
+- !private ["CSo11UIResponder", "random01"]
 - ["CSo11UIResponder", "setup"]
 - !private ["CSo11UIResponder", "tag"]
 - !private ["CSo11UIResponder", "view"]
@@ -677,15 +704,16 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "CGPointMake"]
 - !private ["PSo16UIStateRestoring", "CGSizeMake"]
 - !private ["PSo16UIStateRestoring", "Double"]
-- !private ["PSo16UIStateRestoring", "Font"]
+- !private ["PSo16UIStateRestoring", "Image"]
 - !private ["PSo16UIStateRestoring", "NSKeyValueObservingOptions"]
 - !private ["PSo16UIStateRestoring", "Point"]
-- !private ["PSo16UIStateRestoring", "TextShape"]
 - ["PSo16UIStateRestoring", "UIScrollView"]
+- !private ["PSo16UIStateRestoring", "black"]
 - !private ["PSo16UIStateRestoring", "canvas"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "layers"]
 - ["PSo16UIStateRestoring", "observeValueForKeyPath"]
+- !private ["PSo16UIStateRestoring", "random01"]
 - ["PSo16UIStateRestoring", "setup"]
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", ""]
@@ -693,13 +721,13 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "CGPointMake"]
 - !private ["PSo18UITraitEnvironment", "CGSizeMake"]
 - !private ["PSo18UITraitEnvironment", "Double"]
-- !private ["PSo18UITraitEnvironment", "Font"]
+- !private ["PSo18UITraitEnvironment", "Image"]
 - !private ["PSo18UITraitEnvironment", "NSKeyValueObservingOptions"]
 - !private ["PSo18UITraitEnvironment", "Point"]
-- !private ["PSo18UITraitEnvironment", "TextShape"]
 - ["PSo18UITraitEnvironment", "UIScrollView"]
 - !private ["PSo18UITraitEnvironment", "add"]
 - !private ["PSo18UITraitEnvironment", "addObserver"]
+- !private ["PSo18UITraitEnvironment", "black"]
 - !private ["PSo18UITraitEnvironment", "canvas"]
 - !private ["PSo18UITraitEnvironment", "contentOffset"]
 - !private ["PSo18UITraitEnvironment", "contentSize"]
@@ -707,6 +735,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "layers"]
 - ["PSo18UITraitEnvironment", "observeValueForKeyPath"]
+- !private ["PSo18UITraitEnvironment", "random01"]
 - ["PSo18UITraitEnvironment", "setup"]
 - !private ["PSo18UITraitEnvironment", "tag"]
 - !private ["PSo18UITraitEnvironment", "view"]
@@ -723,48 +752,46 @@ depends-member:
 - !private ["CSo16UIViewController", "CGPointMake"]
 - !private ["CSo16UIViewController", "CGSizeMake"]
 - !private ["CSo16UIViewController", "Double"]
-- !private ["CSo16UIViewController", "Font"]
+- !private ["CSo16UIViewController", "Image"]
 - !private ["CSo16UIViewController", "NSKeyValueObservingOptions"]
 - !private ["CSo16UIViewController", "Point"]
 - ["CSo16UIViewController", "String"]
-- !private ["CSo16UIViewController", "TextShape"]
 - ["CSo16UIViewController", "UIScrollView"]
 - ["CSo16UIViewController", "UnsafeMutablePointer"]
 - ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "black"]
 - !private ["CSo16UIViewController", "canvas"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "layers"]
 - ["CSo16UIViewController", "observeValueForKeyPath"]
+- !private ["CSo16UIViewController", "random01"]
 - ["CSo16UIViewController", "setup"]
 - !private ["CSo16UIViewController", "view"]
-- !private ["Su", "deinit"]
-- !private ["Vs6UInt16", "deinit"]
-- !private ["Vs6UInt32", "deinit"]
-- !private ["Vs6UInt64", "deinit"]
-- !private ["Vs5UInt8", "deinit"]
-- !private ["Sc", "deinit"]
-- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
 - !private ["C6Cosmos4View", "add"]
+- !private ["C6Cosmos4View", "backgroundColor"]
 - !private ["C6Cosmos4View", "center"]
+- !private ["C6Cosmos4View", "constrainsProportions"]
 - !private ["C6Cosmos4View", "height"]
+- !private ["C6Cosmos4View", "width"]
 - ["C6Cosmos9WorkSpace", "AnyObject"]
 - !private ["C6Cosmos9WorkSpace", "CGFloat"]
 - !private ["C6Cosmos9WorkSpace", "CGPointMake"]
 - !private ["C6Cosmos9WorkSpace", "CGSizeMake"]
 - !private ["C6Cosmos9WorkSpace", "Double"]
-- !private ["C6Cosmos9WorkSpace", "Font"]
+- !private ["C6Cosmos9WorkSpace", "Image"]
 - !private ["C6Cosmos9WorkSpace", "NSKeyValueObservingOptions"]
 - !private ["C6Cosmos9WorkSpace", "Point"]
 - ["C6Cosmos9WorkSpace", "String"]
-- !private ["C6Cosmos9WorkSpace", "TextShape"]
 - ["C6Cosmos9WorkSpace", "UIScrollView"]
 - ["C6Cosmos9WorkSpace", "UnsafeMutablePointer"]
 - ["C6Cosmos9WorkSpace", "Void"]
+- !private ["C6Cosmos9WorkSpace", "black"]
 - !private ["C6Cosmos9WorkSpace", "canvas"]
 - ["C6Cosmos9WorkSpace", "deinit"]
 - ["C6Cosmos9WorkSpace", "init"]
 - ["C6Cosmos9WorkSpace", "layers"]
 - ["C6Cosmos9WorkSpace", "observeValueForKeyPath"]
+- !private ["C6Cosmos9WorkSpace", "random01"]
 - ["C6Cosmos9WorkSpace", "setup"]
 - !private ["C6Cosmos9WorkSpace", "view"]
 - ["Ps10_ArrayType", "Generator"]
@@ -777,16 +804,12 @@ depends-member:
 - !private ["Ps10_ArrayType", "last"]
 - !private ["Ps10_ArrayType", "subscript"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
 - ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
 - ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "Stride"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "_DisabledRangeIndex"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
-- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
-- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
-- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps19_CVarArgAlignedType", "init"]
 - !private ["Ps22_CVarArgPassedAsDouble", "init"]
 - ["Ps24_DestructorSafeContainer", "Generator"]
@@ -873,7 +896,6 @@ depends-nominal:
 - !private "VSC6CGSize"
 - "Ps11CVarArgType"
 - "C6Cosmos16CanvasController"
-- !private "Vs9Character"
 - "Ps14CollectionType"
 - "C6Cosmos5Color"
 - "Ps10Comparable"
@@ -882,22 +904,16 @@ depends-nominal:
 - !private "Sd"
 - "Ps9Equatable"
 - "P6Cosmos11EventSource"
-- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
-- !private "Sf"
 - !private "Ps23FloatLiteralConvertible"
 - !private "Ps17FloatingPointType"
-- !private "C6Cosmos4Font"
 - "Ps16ForwardIndexType"
 - "Ps13GeneratorType"
 - !private "Vs16HalfOpenInterval"
 - "Ps8Hashable"
+- !private "C6Cosmos5Image"
 - "Ps9Indexable"
 - "Vs17IndexingGenerator"
 - "Si"
-- !private "Vs5Int16"
-- !private "Vs5Int32"
-- !private "Vs5Int64"
-- !private "Vs4Int8"
 - "Ps21IntegerArithmeticType"
 - "Ps25IntegerLiteralConvertible"
 - "Ps11IntegerType"
@@ -910,15 +926,11 @@ depends-nominal:
 - !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
 - !private "VSC26NSKeyValueObservingOptions"
-- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSo14NSSecureCoding"
-- !private "CSo8NSString"
 - "Ps21NilLiteralConvertible"
 - !private "Ps13OptionSetType"
 - "Sq"
-- !private "Ps16OutputStreamType"
 - !private "V6Cosmos5Point"
 - "Ps21RandomAccessIndexType"
 - !private "Vs5Range"
@@ -927,16 +939,10 @@ depends-nominal:
 - !private "Ps16RawRepresentable"
 - "Ps12SequenceType"
 - !private "Ps14SetAlgebraType"
-- !private "C6Cosmos5Shape"
 - "Ps17SignedIntegerType"
 - "Ps16SignedNumberType"
 - !private "Vs5Slice"
-- !private "Ps10Streamable"
 - "Ps10Strideable"
-- !private "SS"
-- !private "Ps30StringInterpolationConvertible"
-- !private "Ps24StringLiteralConvertible"
-- !private "C6Cosmos9TextShape"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -950,23 +956,12 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
-- !private "Su"
-- !private "Vs6UInt16"
-- !private "Vs6UInt32"
-- !private "Vs6UInt64"
-- !private "Vs5UInt8"
-- !private "Sc"
-- !private "Ps31UnicodeScalarLiteralConvertible"
 - !private "C6Cosmos4View"
 - "C6Cosmos9WorkSpace"
 - "Ps10_ArrayType"
 - !private "Ps33_BuiltinBooleanLiteralConvertible"
-- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
 - !private "Ps31_BuiltinFloatLiteralConvertible"
 - "Ps33_BuiltinIntegerLiteralConvertible"
-- !private "Ps32_BuiltinStringLiteralConvertible"
-- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
-- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
 - !private "Ps19_CVarArgAlignedType"
 - !private "Ps22_CVarArgPassedAsDouble"
 - "Ps24_DestructorSafeContainer"
