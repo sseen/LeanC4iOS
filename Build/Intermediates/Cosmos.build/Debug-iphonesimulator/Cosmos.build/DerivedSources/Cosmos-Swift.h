@@ -1784,6 +1784,7 @@ SWIFT_CLASS("_TtC6Cosmos9WorkSpace")
 @interface WorkSpace : CanvasController
 @property (nonatomic, copy) NSArray<UIScrollView *> * _Nonnull layers;
 - (void)setup;
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSString *, id> * _Nullable)change context:(void * _Null_unspecified)context;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

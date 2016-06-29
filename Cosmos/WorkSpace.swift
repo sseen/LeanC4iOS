@@ -44,6 +44,25 @@ class WorkSpace: CanvasController {
                 center.x += 130.0
                 layer.add( label )
             } while center.x < Double(layer.contentSize.width)
+            
+            layer.tag += 1
         } while layers.count < 10
+      
+        // 下一步就是创建一个观察器，查看一下最上层的 layer，在滚动时将剩下的 layer 移走。
+        if let top = layers.last {
+            var c = 0
+            top.addObserver(self, forKeyPath:"contentOffset",  options: NSKeyValueObservingOptions.New, context: &c)
+        }
+        
+    }
+    
+    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+        for i in 0..<layers.count-1 {
+            let layer = self.layers[i]
+            let mod = 0.1 * CGFloat( i + 1 )
+            if let x = layers.last?.contentOffset.x {
+                layer.contentOffset = CGPointMake(x * mod, 0)
+            }
+        }
     }
 }
