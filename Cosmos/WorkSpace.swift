@@ -24,44 +24,34 @@ let cosmosblue = Color(red: 0.094, green: 0.271, blue: 1.0, alpha: 1.0)
 let cosmosbkgd = Color(red: 0.078, green: 0.118, blue: 0.306, alpha: 1.0)
 
 class WorkSpace: CanvasController {
-    var layers = [UIScrollView]()
+    let infiniteScrollView = InfiniteScrollView()
     
     override func setup() {
-        repeat {
-            let layer = UIScrollView(frame: view.frame)
-            // layer 好大 都是 10 倍的
-            layer.contentSize = CGSizeMake(layer.frame.size.width * 10, 0)
-            canvas.add(layer)
-            layers.append(layer)
-            
-            let starCount = layers.count * 15
-            canvas.backgroundColor = black
-            for _ in 0..<starCount {
-                let img = Image("6smallStar")
-                img?.constrainsProportions = true
-                img?.width *= 0.1 * Double(layers.count + 1)
-                img?.center = Point(Double(layer.contentSize.width)*random01(), canvas.height*random01())
-                layer.add(img)
-            }
-            
-            layer.tag += 1
-        } while layers.count < 10
-      
-        // 下一步就是创建一个观察器，查看一下最上层的 layer，在滚动时将剩下的 layer 移走。
-        if let top = layers.last {
-            var c = 0
-            top.addObserver(self, forKeyPath:"contentOffset",  options: NSKeyValueObservingOptions.New, context: &c)
-        }
+        infiniteScrollView.frame = CGRect(canvas.frame)
+        
+        canvas.add(infiniteScrollView)
+        
+        addVisualIndicators()
         
     }
     
-    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
-        for i in 0..<layers.count-1 {
-            let layer = self.layers[i]
-            let mod = 0.1 * CGFloat( i + 1 )
-            if let x = layers.last?.contentOffset.x {
-                layer.contentOffset = CGPointMake(x * mod, 0)
-            }
+    func addVisualIndicators() {
+        let count = 20
+        // 指示器间距
+        let gap = 150.0
+        // 指示器的偏移量
+        let dx = 40.0
+        // 总宽度
+        let width = Double(count) * gap + dx
+        
+        for x in 0...count {
+            let point = Point(Double(x) * gap + dx, canvas.center.y)
+            let ts = TextShape(text: "\(x)")
+            ts?.center  = point
+            infiniteScrollView.add(ts)
         }
+        
+        infiniteScrollView.contentSize = CGSizeMake(CGFloat(width + gap), 0)
     }
+    
 }
