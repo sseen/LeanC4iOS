@@ -1,0 +1,180 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Ellipse"
+provides-nominal:
+- "C6Cosmos7Ellipse"
+provides-member:
+- ["C6Cosmos7Ellipse", ""]
+provides-dynamic-lookup:
+- "updatePath"
+depends-top-level:
+- "Rect"
+- !private "CGRect"
+- "Shape"
+- !private "Path"
+- !private "StringLiteralType"
+- "Ellipse"
+depends-member:
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "Path"]
+- !private ["Ps9AnyObject", "addEllipse"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "path"]
+- ["Ps9AnyObject", "updatePath"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
+- !private ["VSC6CGRect", "init"]
+- !private ["Ps11CVarArgType", "CGRect"]
+- !private ["Ps11CVarArgType", "Path"]
+- !private ["Ps11CVarArgType", "bounds"]
+- !private ["Ps11CVarArgType", "frame"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "path"]
+- ["Ps11CVarArgType", "updatePath"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "Path"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- ["Ps28CustomDebugStringConvertible", "updatePath"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "Path"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- ["Ps23CustomStringConvertible", "updatePath"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C6Cosmos7Ellipse", "CGRect"]
+- !private ["C6Cosmos7Ellipse", "Path"]
+- ["C6Cosmos7Ellipse", "Rect"]
+- !private ["C6Cosmos7Ellipse", "bounds"]
+- ["C6Cosmos7Ellipse", "deinit"]
+- ["C6Cosmos7Ellipse", "init"]
+- !private ["C6Cosmos7Ellipse", "path"]
+- ["C6Cosmos7Ellipse", "updatePath"]
+- !private ["C6Cosmos7Ellipse", "view"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "Path"]
+- !private ["Ps9Equatable", "addEllipse"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "frame"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "path"]
+- ["Ps9Equatable", "updatePath"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", ""]
+- !private ["P6Cosmos11EventSource", "CGRect"]
+- !private ["P6Cosmos11EventSource", "Path"]
+- !private ["P6Cosmos11EventSource", "bounds"]
+- ["P6Cosmos11EventSource", "init"]
+- !private ["P6Cosmos11EventSource", "path"]
+- ["P6Cosmos11EventSource", "updatePath"]
+- !private ["P6Cosmos11EventSource", "view"]
+- ["P6Cosmos11EventSource", ""]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "Path"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "path"]
+- ["Ps8Hashable", "updatePath"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "Path"]
+- ["CSo8NSObject", "Rect"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "updatePath"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "Path"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- ["PSo16NSObjectProtocol", "updatePath"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C6Cosmos4Path", "addEllipse"]
+- !private ["C6Cosmos4Path", "init"]
+- !private ["C6Cosmos5Shape", "CGRect"]
+- !private ["C6Cosmos5Shape", "Path"]
+- ["C6Cosmos5Shape", "Rect"]
+- !private ["C6Cosmos5Shape", "bounds"]
+- ["C6Cosmos5Shape", "init"]
+- !private ["C6Cosmos5Shape", "path"]
+- ["C6Cosmos5Shape", "updatePath"]
+- !private ["C6Cosmos5Shape", "view"]
+- ["C6Cosmos5Shape", ""]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["CSo6UIView", "frame"]
+- !private ["C6Cosmos4View", "CGRect"]
+- !private ["C6Cosmos4View", "Path"]
+- ["C6Cosmos4View", "Rect"]
+- !private ["C6Cosmos4View", "bounds"]
+- !private ["C6Cosmos4View", "path"]
+- ["C6Cosmos4View", "updatePath"]
+- !private ["C6Cosmos4View", "view"]
+- !private ["Ps12_Reflectable", "frame"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "VSC6CGRect"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "C6Cosmos7Ellipse"
+- "Ps9Equatable"
+- "P6Cosmos11EventSource"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C6Cosmos4Path"
+- "C6Cosmos5Shape"
+- !private "Vs12StaticString"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "C6Cosmos4View"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "830347b81972869bb978a92d41b21a6e"

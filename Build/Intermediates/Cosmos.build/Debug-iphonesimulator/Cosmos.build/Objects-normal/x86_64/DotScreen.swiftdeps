@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DotScreen"
+provides-nominal:
+- "V6Cosmos9DotScreen"
+provides-member:
+- ["V6Cosmos9DotScreen", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CIImage"
+- "CIFilter"
+- "Double"
+- "Point"
+- !private "CGPoint"
+- "DotScreen"
+- "StringLiteralType"
+- !private "CIVector"
+- "Filter"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "setDefaults"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["CSo8CIFilter", "init"]
+- !private ["CSo8CIFilter", "setDefaults"]
+- !private ["CSo8CIFilter", "setValue"]
+- !private ["CSo8CIVector", "init"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "setDefaults"]
+- !private ["Ps11CVarArgType", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "setDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "setDefaults"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["V6Cosmos9DotScreen", "CGPoint"]
+- ["V6Cosmos9DotScreen", "CIFilter"]
+- ["V6Cosmos9DotScreen", "CIImage"]
+- !private ["V6Cosmos9DotScreen", "CIVector"]
+- ["V6Cosmos9DotScreen", "Double"]
+- ["V6Cosmos9DotScreen", "Point"]
+- ["V6Cosmos9DotScreen", "angle"]
+- ["V6Cosmos9DotScreen", "center"]
+- ["V6Cosmos9DotScreen", "createCoreImageFilter"]
+- ["V6Cosmos9DotScreen", "deinit"]
+- ["V6Cosmos9DotScreen", "filterName"]
+- ["V6Cosmos9DotScreen", "init"]
+- ["V6Cosmos9DotScreen", "sharpness"]
+- ["V6Cosmos9DotScreen", "width"]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "setDefaults"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["P6Cosmos11EventSource", "init"]
+- !private ["P6Cosmos11EventSource", "setDefaults"]
+- !private ["P6Cosmos11EventSource", "setValue"]
+- !private ["P6Cosmos6Filter", "CGPoint"]
+- !private ["P6Cosmos6Filter", "CIFilter"]
+- !private ["P6Cosmos6Filter", "CIVector"]
+- ["P6Cosmos6Filter", "Point"]
+- !private ["P6Cosmos6Filter", "angle"]
+- !private ["P6Cosmos6Filter", "center"]
+- ["P6Cosmos6Filter", "createCoreImageFilter"]
+- ["P6Cosmos6Filter", "filterName"]
+- !private ["P6Cosmos6Filter", "sharpness"]
+- !private ["P6Cosmos6Filter", "width"]
+- ["P6Cosmos6Filter", ""]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "setDefaults"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "setDefaults"]
+- !private ["PSo8NSCoding", "setValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "setDefaults"]
+- !private ["PSo9NSCopying", "setValue"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "setDefaults"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setDefaults"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "setDefaults"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- ["V6Cosmos5Point", "init"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "VSC7CGPoint"
+- !private "CSo8CIFilter"
+- !private "CSo8CIVector"
+- !private "Ps11CVarArgType"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "V6Cosmos9DotScreen"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "P6Cosmos11EventSource"
+- "P6Cosmos6Filter"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "V6Cosmos5Point"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "8787db2aed33e25cb781d6a328075ac8"

@@ -1,0 +1,518 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C6Cosmos5Image", ""]
+- ["C6Cosmos5Image", "apply"]
+- ["C6Cosmos5Image", "apply"]
+- ["C6Cosmos5Image", "renderFilteredImage"]
+provides-dynamic-lookup:
+- "renderFilteredImage"
+depends-top-level:
+- !private "Array"
+- !private "dispatch_async"
+- "Image"
+- "Filter"
+- !private "CIContext"
+- !private "StringLiteralType"
+- !private "CGRectIsInfinite"
+- !private "print"
+- !private "dispatch_get_main_queue"
+depends-member:
+- !private ["Ps9AnyObject", "CGRectIsInfinite"]
+- !private ["Ps9AnyObject", "CIContext"]
+- ["Ps9AnyObject", "apply"]
+- !private ["Ps9AnyObject", "ciimage"]
+- !private ["Ps9AnyObject", "contents"]
+- !private ["Ps9AnyObject", "createCGImage"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "extent"]
+- !private ["Ps9AnyObject", "imageView"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "output"]
+- !private ["Ps9AnyObject", "outputImage"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "renderFilteredImage"]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "contents"]
+- !private ["PSo13CAMediaTiming", "contents"]
+- !private ["CSo9CIContext", "createCGImage"]
+- !private ["CSo9CIContext", "init"]
+- !private ["CSo8CIFilter", "outputImage"]
+- !private ["CSo7CIImage", "extent"]
+- !private ["Ps11CVarArgType", "CGRectIsInfinite"]
+- !private ["Ps11CVarArgType", "CIContext"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Ps11CVarArgType", "apply"]
+- !private ["Ps11CVarArgType", "ciimage"]
+- !private ["Ps11CVarArgType", "contents"]
+- !private ["Ps11CVarArgType", "createCGImage"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- !private ["Ps11CVarArgType", "extent"]
+- !private ["Ps11CVarArgType", "imageView"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "layer"]
+- !private ["Ps11CVarArgType", "output"]
+- !private ["Ps11CVarArgType", "outputImage"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "renderFilteredImage"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRectIsInfinite"]
+- !private ["Ps28CustomDebugStringConvertible", "CIContext"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "apply"]
+- !private ["Ps28CustomDebugStringConvertible", "ciimage"]
+- !private ["Ps28CustomDebugStringConvertible", "contents"]
+- !private ["Ps28CustomDebugStringConvertible", "createCGImage"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps28CustomDebugStringConvertible", "extent"]
+- !private ["Ps28CustomDebugStringConvertible", "imageView"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "output"]
+- !private ["Ps28CustomDebugStringConvertible", "outputImage"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "renderFilteredImage"]
+- !private ["Ps23CustomStringConvertible", "CGRectIsInfinite"]
+- !private ["Ps23CustomStringConvertible", "CIContext"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "apply"]
+- !private ["Ps23CustomStringConvertible", "ciimage"]
+- !private ["Ps23CustomStringConvertible", "contents"]
+- !private ["Ps23CustomStringConvertible", "createCGImage"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps23CustomStringConvertible", "extent"]
+- !private ["Ps23CustomStringConvertible", "imageView"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "output"]
+- !private ["Ps23CustomStringConvertible", "outputImage"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "renderFilteredImage"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGRectIsInfinite"]
+- !private ["Ps9Equatable", "CIContext"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "apply"]
+- !private ["Ps9Equatable", "ciimage"]
+- !private ["Ps9Equatable", "contents"]
+- !private ["Ps9Equatable", "createCGImage"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- !private ["Ps9Equatable", "extent"]
+- !private ["Ps9Equatable", "imageView"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "output"]
+- !private ["Ps9Equatable", "outputImage"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "renderFilteredImage"]
+- !private ["P6Cosmos11EventSource", "CGRectIsInfinite"]
+- !private ["P6Cosmos11EventSource", "CIContext"]
+- ["P6Cosmos11EventSource", "apply"]
+- !private ["P6Cosmos11EventSource", "ciimage"]
+- !private ["P6Cosmos11EventSource", "contents"]
+- !private ["P6Cosmos11EventSource", "createCGImage"]
+- !private ["P6Cosmos11EventSource", "dispatch_async"]
+- !private ["P6Cosmos11EventSource", "dispatch_get_main_queue"]
+- !private ["P6Cosmos11EventSource", "extent"]
+- !private ["P6Cosmos11EventSource", "imageView"]
+- !private ["P6Cosmos11EventSource", "init"]
+- !private ["P6Cosmos11EventSource", "output"]
+- !private ["P6Cosmos11EventSource", "outputImage"]
+- !private ["P6Cosmos11EventSource", "print"]
+- ["P6Cosmos11EventSource", "renderFilteredImage"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["P6Cosmos6Filter", "createCoreImageFilter"]
+- ["P6Cosmos6Filter", "deinit"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "CGRectIsInfinite"]
+- !private ["Ps8Hashable", "CIContext"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "apply"]
+- !private ["Ps8Hashable", "ciimage"]
+- !private ["Ps8Hashable", "contents"]
+- !private ["Ps8Hashable", "createCGImage"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- !private ["Ps8Hashable", "extent"]
+- !private ["Ps8Hashable", "imageView"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "output"]
+- !private ["Ps8Hashable", "outputImage"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "renderFilteredImage"]
+- !private ["C6Cosmos5Image", "CGRectIsInfinite"]
+- !private ["C6Cosmos5Image", "CIContext"]
+- ["C6Cosmos5Image", "Filter"]
+- ["C6Cosmos5Image", "apply"]
+- !private ["C6Cosmos5Image", "ciimage"]
+- !private ["C6Cosmos5Image", "dispatch_async"]
+- !private ["C6Cosmos5Image", "dispatch_get_main_queue"]
+- !private ["C6Cosmos5Image", "imageView"]
+- !private ["C6Cosmos5Image", "output"]
+- !private ["C6Cosmos5Image", "print"]
+- ["C6Cosmos5Image", "renderFilteredImage"]
+- !private ["CC6Cosmos5Image9ImageView", "layer"]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["PSo8NSCoding", "contents"]
+- !private ["PSo8NSCoding", "extent"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "outputImage"]
+- !private ["PSo9NSCopying", "CGRectIsInfinite"]
+- !private ["PSo9NSCopying", "CIContext"]
+- !private ["PSo9NSCopying", "apply"]
+- !private ["PSo9NSCopying", "ciimage"]
+- !private ["PSo9NSCopying", "dispatch_async"]
+- !private ["PSo9NSCopying", "dispatch_get_main_queue"]
+- !private ["PSo9NSCopying", "extent"]
+- !private ["PSo9NSCopying", "imageView"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "output"]
+- !private ["PSo9NSCopying", "outputImage"]
+- !private ["PSo9NSCopying", "print"]
+- !private ["PSo9NSCopying", "renderFilteredImage"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CGRectIsInfinite"]
+- !private ["CSo8NSObject", "CIContext"]
+- ["CSo8NSObject", "Filter"]
+- ["CSo8NSObject", "apply"]
+- !private ["CSo8NSObject", "ciimage"]
+- !private ["CSo8NSObject", "contents"]
+- !private ["CSo8NSObject", "createCGImage"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "extent"]
+- !private ["CSo8NSObject", "imageView"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "output"]
+- !private ["CSo8NSObject", "outputImage"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "renderFilteredImage"]
+- !private ["PSo16NSObjectProtocol", "CGRectIsInfinite"]
+- !private ["PSo16NSObjectProtocol", "CIContext"]
+- ["PSo16NSObjectProtocol", "apply"]
+- !private ["PSo16NSObjectProtocol", "ciimage"]
+- !private ["PSo16NSObjectProtocol", "contents"]
+- !private ["PSo16NSObjectProtocol", "createCGImage"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "extent"]
+- !private ["PSo16NSObjectProtocol", "imageView"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "output"]
+- !private ["PSo16NSObjectProtocol", "outputImage"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "renderFilteredImage"]
+- !private ["PSo14NSSecureCoding", "extent"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "outputImage"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["CSo11UIImageView", "layer"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["CSo6UIView", "layer"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C6Cosmos4View", "CGRectIsInfinite"]
+- !private ["C6Cosmos4View", "CIContext"]
+- ["C6Cosmos4View", "Filter"]
+- ["C6Cosmos4View", "apply"]
+- !private ["C6Cosmos4View", "ciimage"]
+- !private ["C6Cosmos4View", "dispatch_async"]
+- !private ["C6Cosmos4View", "dispatch_get_main_queue"]
+- !private ["C6Cosmos4View", "imageView"]
+- !private ["C6Cosmos4View", "output"]
+- !private ["C6Cosmos4View", "print"]
+- ["C6Cosmos4View", "renderFilteredImage"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "layer"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo9CIContext"
+- !private "CSo8CIFilter"
+- !private "CSo7CIImage"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "P6Cosmos11EventSource"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "P6Cosmos6Filter"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- "C6Cosmos5Image"
+- !private "CC6Cosmos5Image9ImageView"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIImageView"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- "C6Cosmos4View"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "ee25f72f7163a8fd1478a69b8641d176"

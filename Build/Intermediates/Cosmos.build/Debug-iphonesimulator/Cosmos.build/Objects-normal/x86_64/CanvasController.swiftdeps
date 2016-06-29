@@ -1,0 +1,235 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CanvasController"
+provides-nominal:
+- "C6Cosmos16CanvasController"
+provides-member:
+- ["C6Cosmos16CanvasController", ""]
+provides-dynamic-lookup:
+- "setup"
+- "prefersStatusBarHidden"
+- "viewDidLoad"
+depends-top-level:
+- !private "C4Grey"
+- !private "ShapeLayer"
+- "UIViewController"
+- "CanvasController"
+- "Bool"
+depends-member:
+- !private ["Ps9AnyObject", "C4Grey"]
+- !private ["Ps9AnyObject", "ShapeLayer"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "canvas"]
+- !private ["Ps9AnyObject", "disableActions"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "prefersStatusBarHidden"]
+- ["Ps9AnyObject", "setup"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["CSo7CALayer", "disableActions"]
+- !private ["PSo13CAMediaTiming", "disableActions"]
+- !private ["CSo12CAShapeLayer", "disableActions"]
+- !private ["Ps11CVarArgType", "C4Grey"]
+- !private ["Ps11CVarArgType", "ShapeLayer"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "canvas"]
+- !private ["Ps11CVarArgType", "disableActions"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "prefersStatusBarHidden"]
+- ["Ps11CVarArgType", "setup"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- ["C6Cosmos16CanvasController", "Bool"]
+- !private ["C6Cosmos16CanvasController", "C4Grey"]
+- !private ["C6Cosmos16CanvasController", "ShapeLayer"]
+- !private ["C6Cosmos16CanvasController", "canvas"]
+- ["C6Cosmos16CanvasController", "deinit"]
+- ["C6Cosmos16CanvasController", "init"]
+- ["C6Cosmos16CanvasController", "prefersStatusBarHidden"]
+- ["C6Cosmos16CanvasController", "setup"]
+- ["C6Cosmos16CanvasController", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "C4Grey"]
+- !private ["Ps28CustomDebugStringConvertible", "ShapeLayer"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "canvas"]
+- !private ["Ps28CustomDebugStringConvertible", "disableActions"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "prefersStatusBarHidden"]
+- ["Ps28CustomDebugStringConvertible", "setup"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "C4Grey"]
+- !private ["Ps23CustomStringConvertible", "ShapeLayer"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "canvas"]
+- !private ["Ps23CustomStringConvertible", "disableActions"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "prefersStatusBarHidden"]
+- ["Ps23CustomStringConvertible", "setup"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "C4Grey"]
+- !private ["Ps9Equatable", "ShapeLayer"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "canvas"]
+- !private ["Ps9Equatable", "disableActions"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "prefersStatusBarHidden"]
+- ["Ps9Equatable", "setup"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["P6Cosmos11EventSource", "C4Grey"]
+- !private ["P6Cosmos11EventSource", "ShapeLayer"]
+- !private ["P6Cosmos11EventSource", "backgroundColor"]
+- !private ["P6Cosmos11EventSource", "canvas"]
+- !private ["P6Cosmos11EventSource", "disableActions"]
+- ["P6Cosmos11EventSource", "init"]
+- ["P6Cosmos11EventSource", "prefersStatusBarHidden"]
+- ["P6Cosmos11EventSource", "setup"]
+- ["P6Cosmos11EventSource", "viewDidLoad"]
+- ["P6Cosmos11EventSource", ""]
+- !private ["Ps8Hashable", "C4Grey"]
+- !private ["Ps8Hashable", "ShapeLayer"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "canvas"]
+- !private ["Ps8Hashable", "disableActions"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "prefersStatusBarHidden"]
+- ["Ps8Hashable", "setup"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "C4Grey"]
+- !private ["PSo8NSCoding", "ShapeLayer"]
+- !private ["PSo8NSCoding", "canvas"]
+- !private ["PSo8NSCoding", "disableActions"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "prefersStatusBarHidden"]
+- ["PSo8NSCoding", "setup"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "C4Grey"]
+- !private ["PSo26NSExtensionRequestHandling", "ShapeLayer"]
+- !private ["PSo26NSExtensionRequestHandling", "canvas"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "prefersStatusBarHidden"]
+- ["PSo26NSExtensionRequestHandling", "setup"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "C4Grey"]
+- !private ["CSo8NSObject", "ShapeLayer"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "canvas"]
+- !private ["CSo8NSObject", "disableActions"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "prefersStatusBarHidden"]
+- ["CSo8NSObject", "setup"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "C4Grey"]
+- !private ["PSo16NSObjectProtocol", "ShapeLayer"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "canvas"]
+- !private ["PSo16NSObjectProtocol", "disableActions"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "prefersStatusBarHidden"]
+- ["PSo16NSObjectProtocol", "setup"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C6Cosmos10ShapeLayer", "disableActions"]
+- !private ["PSo21UIAppearanceContainer", "C4Grey"]
+- !private ["PSo21UIAppearanceContainer", "ShapeLayer"]
+- !private ["PSo21UIAppearanceContainer", "canvas"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "prefersStatusBarHidden"]
+- ["PSo21UIAppearanceContainer", "setup"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "C4Grey"]
+- !private ["PSo18UIContentContainer", "ShapeLayer"]
+- !private ["PSo18UIContentContainer", "canvas"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "prefersStatusBarHidden"]
+- ["PSo18UIContentContainer", "setup"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "C4Grey"]
+- !private ["PSo18UIFocusEnvironment", "ShapeLayer"]
+- !private ["PSo18UIFocusEnvironment", "canvas"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "prefersStatusBarHidden"]
+- ["PSo18UIFocusEnvironment", "setup"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "C4Grey"]
+- !private ["CSo11UIResponder", "ShapeLayer"]
+- !private ["CSo11UIResponder", "canvas"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "prefersStatusBarHidden"]
+- ["CSo11UIResponder", "setup"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "C4Grey"]
+- !private ["PSo16UIStateRestoring", "ShapeLayer"]
+- !private ["PSo16UIStateRestoring", "canvas"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "prefersStatusBarHidden"]
+- ["PSo16UIStateRestoring", "setup"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "C4Grey"]
+- !private ["PSo18UITraitEnvironment", "ShapeLayer"]
+- !private ["PSo18UITraitEnvironment", "canvas"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "prefersStatusBarHidden"]
+- ["PSo18UITraitEnvironment", "setup"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "C4Grey"]
+- !private ["CSo16UIViewController", "ShapeLayer"]
+- !private ["CSo16UIViewController", "canvas"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "prefersStatusBarHidden"]
+- ["CSo16UIViewController", "setup"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["C6Cosmos4View", "backgroundColor"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo12CAShapeLayer"
+- "Ps11CVarArgType"
+- "C6Cosmos16CanvasController"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P6Cosmos11EventSource"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C6Cosmos10ShapeLayer"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "C6Cosmos4View"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "69da89035383484a6dd3262a15b9aaba"

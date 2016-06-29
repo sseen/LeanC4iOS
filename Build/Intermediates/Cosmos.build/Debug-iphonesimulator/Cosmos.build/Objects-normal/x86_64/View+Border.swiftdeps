@@ -1,0 +1,196 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Border"
+provides-nominal:
+- "V6Cosmos6Border"
+provides-member:
+- ["V6Cosmos6Border", ""]
+- ["C6Cosmos4View", ""]
+- ["C6Cosmos4View", "border"]
+provides-dynamic-lookup:
+depends-top-level:
+- "View"
+- "Color"
+- "Double"
+- "Border"
+- !private "CGFloat"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "Border"]
+- !private ["Ps9AnyObject", "CGColor"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "Color"]
+- !private ["Ps9AnyObject", "Double"]
+- ["Ps9AnyObject", "border"]
+- !private ["Ps9AnyObject", "borderColor"]
+- !private ["Ps9AnyObject", "borderWidth"]
+- !private ["Ps9AnyObject", "cornerRadius"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- ["V6Cosmos6Border", "Color"]
+- ["V6Cosmos6Border", "Double"]
+- ["V6Cosmos6Border", "color"]
+- ["V6Cosmos6Border", "init"]
+- ["V6Cosmos6Border", "radius"]
+- ["V6Cosmos6Border", "width"]
+- !private ["CSo7CALayer", "borderColor"]
+- !private ["CSo7CALayer", "borderWidth"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "borderColor"]
+- !private ["PSo13CAMediaTiming", "borderWidth"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps11CVarArgType", "Border"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "Color"]
+- !private ["Ps11CVarArgType", "Double"]
+- ["Ps11CVarArgType", "border"]
+- !private ["Ps11CVarArgType", "borderColor"]
+- !private ["Ps11CVarArgType", "borderWidth"]
+- !private ["Ps11CVarArgType", "cornerRadius"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "layer"]
+- !private ["C6Cosmos5Color", "CGColor"]
+- !private ["C6Cosmos5Color", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Border"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "Color"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "border"]
+- !private ["Ps28CustomDebugStringConvertible", "borderColor"]
+- !private ["Ps28CustomDebugStringConvertible", "borderWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "Border"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "Color"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- ["Ps23CustomStringConvertible", "border"]
+- !private ["Ps23CustomStringConvertible", "borderColor"]
+- !private ["Ps23CustomStringConvertible", "borderWidth"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "Border"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "Color"]
+- !private ["Ps9Equatable", "Double"]
+- ["Ps9Equatable", "border"]
+- !private ["Ps9Equatable", "borderColor"]
+- !private ["Ps9Equatable", "borderWidth"]
+- !private ["Ps9Equatable", "cornerRadius"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["P6Cosmos11EventSource", "Border"]
+- !private ["P6Cosmos11EventSource", "CGFloat"]
+- !private ["P6Cosmos11EventSource", "Color"]
+- !private ["P6Cosmos11EventSource", "Double"]
+- ["P6Cosmos11EventSource", "border"]
+- !private ["P6Cosmos11EventSource", "borderColor"]
+- !private ["P6Cosmos11EventSource", "borderWidth"]
+- !private ["P6Cosmos11EventSource", "cornerRadius"]
+- !private ["P6Cosmos11EventSource", "layer"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps8Hashable", "Border"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "Color"]
+- !private ["Ps8Hashable", "Double"]
+- ["Ps8Hashable", "border"]
+- !private ["Ps8Hashable", "borderColor"]
+- !private ["Ps8Hashable", "borderWidth"]
+- !private ["Ps8Hashable", "cornerRadius"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Si", "deinit"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["PSo8NSCoding", "borderColor"]
+- !private ["PSo8NSCoding", "borderWidth"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- ["CSo8NSObject", "Border"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "Color"]
+- !private ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "border"]
+- !private ["CSo8NSObject", "borderColor"]
+- !private ["CSo8NSObject", "borderWidth"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["PSo16NSObjectProtocol", "Border"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "Color"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- ["PSo16NSObjectProtocol", "border"]
+- !private ["PSo16NSObjectProtocol", "borderColor"]
+- !private ["PSo16NSObjectProtocol", "borderWidth"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["C6Cosmos4View", "Border"]
+- !private ["C6Cosmos4View", "CGFloat"]
+- !private ["C6Cosmos4View", "Color"]
+- !private ["C6Cosmos4View", "Double"]
+- ["C6Cosmos4View", "border"]
+- !private ["C6Cosmos4View", "layer"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "V6Cosmos6Border"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "C6Cosmos5Color"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "P6Cosmos11EventSource"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "C6Cosmos4View"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "3db59d81ac95153bb0efb507d6f11768"

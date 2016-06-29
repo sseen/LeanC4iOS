@@ -1,0 +1,196 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo16UIViewController", ""]
+- ["CSo16UIViewController", "canvas"]
+provides-dynamic-lookup:
+- "canvas"
+depends-top-level:
+- !private "objc_getAssociatedObject"
+- "View"
+- "UInt8"
+- !private "objc_setAssociatedObject"
+- !private "objc_AssociationPolicy"
+- "UIViewController"
+- !private "canvasAssociationKey"
+depends-member:
+- !private ["Ps9AnyObject", "View"]
+- ["Ps9AnyObject", "canvas"]
+- !private ["Ps9AnyObject", "canvasAssociationKey"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "objc_AssociationPolicy"]
+- !private ["Ps9AnyObject", "objc_getAssociatedObject"]
+- !private ["Ps9AnyObject", "objc_setAssociatedObject"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps11CVarArgType", "View"]
+- ["Ps11CVarArgType", "canvas"]
+- !private ["Ps11CVarArgType", "canvasAssociationKey"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "objc_AssociationPolicy"]
+- !private ["Ps11CVarArgType", "objc_getAssociatedObject"]
+- !private ["Ps11CVarArgType", "objc_setAssociatedObject"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "View"]
+- ["Ps28CustomDebugStringConvertible", "canvas"]
+- !private ["Ps28CustomDebugStringConvertible", "canvasAssociationKey"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_AssociationPolicy"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_getAssociatedObject"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_setAssociatedObject"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "View"]
+- ["Ps23CustomStringConvertible", "canvas"]
+- !private ["Ps23CustomStringConvertible", "canvasAssociationKey"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "objc_AssociationPolicy"]
+- !private ["Ps23CustomStringConvertible", "objc_getAssociatedObject"]
+- !private ["Ps23CustomStringConvertible", "objc_setAssociatedObject"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps9Equatable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps9Equatable", "View"]
+- ["Ps9Equatable", "canvas"]
+- !private ["Ps9Equatable", "canvasAssociationKey"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "objc_AssociationPolicy"]
+- !private ["Ps9Equatable", "objc_getAssociatedObject"]
+- !private ["Ps9Equatable", "objc_setAssociatedObject"]
+- !private ["Ps9Equatable", "view"]
+- !private ["P6Cosmos11EventSource", "View"]
+- ["P6Cosmos11EventSource", "canvas"]
+- !private ["P6Cosmos11EventSource", "canvasAssociationKey"]
+- !private ["P6Cosmos11EventSource", "init"]
+- !private ["P6Cosmos11EventSource", "objc_AssociationPolicy"]
+- !private ["P6Cosmos11EventSource", "objc_getAssociatedObject"]
+- !private ["P6Cosmos11EventSource", "objc_setAssociatedObject"]
+- !private ["P6Cosmos11EventSource", "view"]
+- !private ["Ps8Hashable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps8Hashable", "View"]
+- ["Ps8Hashable", "canvas"]
+- !private ["Ps8Hashable", "canvasAssociationKey"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "objc_AssociationPolicy"]
+- !private ["Ps8Hashable", "objc_getAssociatedObject"]
+- !private ["Ps8Hashable", "objc_setAssociatedObject"]
+- !private ["Ps8Hashable", "view"]
+- !private ["SQ", "deinit"]
+- !private ["PSo8NSCoding", "View"]
+- !private ["PSo8NSCoding", "canvasAssociationKey"]
+- !private ["PSo8NSCoding", "objc_AssociationPolicy"]
+- !private ["PSo8NSCoding", "objc_getAssociatedObject"]
+- !private ["PSo8NSCoding", "objc_setAssociatedObject"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "View"]
+- !private ["PSo26NSExtensionRequestHandling", "canvasAssociationKey"]
+- !private ["PSo26NSExtensionRequestHandling", "objc_AssociationPolicy"]
+- !private ["PSo26NSExtensionRequestHandling", "objc_getAssociatedObject"]
+- !private ["PSo26NSExtensionRequestHandling", "objc_setAssociatedObject"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["CSo8NSObject", "View"]
+- ["CSo8NSObject", "canvas"]
+- !private ["CSo8NSObject", "canvasAssociationKey"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objc_AssociationPolicy"]
+- !private ["CSo8NSObject", "objc_getAssociatedObject"]
+- !private ["CSo8NSObject", "objc_setAssociatedObject"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "View"]
+- ["PSo16NSObjectProtocol", "canvas"]
+- !private ["PSo16NSObjectProtocol", "canvasAssociationKey"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objc_AssociationPolicy"]
+- !private ["PSo16NSObjectProtocol", "objc_getAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "objc_setAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps16RawRepresentable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["PSo21UIAppearanceContainer", "View"]
+- !private ["PSo21UIAppearanceContainer", "canvasAssociationKey"]
+- !private ["PSo21UIAppearanceContainer", "objc_AssociationPolicy"]
+- !private ["PSo21UIAppearanceContainer", "objc_getAssociatedObject"]
+- !private ["PSo21UIAppearanceContainer", "objc_setAssociatedObject"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo18UIContentContainer", "View"]
+- !private ["PSo18UIContentContainer", "canvasAssociationKey"]
+- !private ["PSo18UIContentContainer", "objc_AssociationPolicy"]
+- !private ["PSo18UIContentContainer", "objc_getAssociatedObject"]
+- !private ["PSo18UIContentContainer", "objc_setAssociatedObject"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo18UIFocusEnvironment", "View"]
+- !private ["PSo18UIFocusEnvironment", "canvasAssociationKey"]
+- !private ["PSo18UIFocusEnvironment", "objc_AssociationPolicy"]
+- !private ["PSo18UIFocusEnvironment", "objc_getAssociatedObject"]
+- !private ["PSo18UIFocusEnvironment", "objc_setAssociatedObject"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["CSo11UIResponder", "View"]
+- ["CSo11UIResponder", "canvas"]
+- !private ["CSo11UIResponder", "canvasAssociationKey"]
+- !private ["CSo11UIResponder", "objc_AssociationPolicy"]
+- !private ["CSo11UIResponder", "objc_getAssociatedObject"]
+- !private ["CSo11UIResponder", "objc_setAssociatedObject"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["PSo16UIStateRestoring", "View"]
+- !private ["PSo16UIStateRestoring", "canvasAssociationKey"]
+- !private ["PSo16UIStateRestoring", "objc_AssociationPolicy"]
+- !private ["PSo16UIStateRestoring", "objc_getAssociatedObject"]
+- !private ["PSo16UIStateRestoring", "objc_setAssociatedObject"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo18UITraitEnvironment", "View"]
+- !private ["PSo18UITraitEnvironment", "canvasAssociationKey"]
+- !private ["PSo18UITraitEnvironment", "objc_AssociationPolicy"]
+- !private ["PSo18UITraitEnvironment", "objc_getAssociatedObject"]
+- !private ["PSo18UITraitEnvironment", "objc_setAssociatedObject"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["CSo16UIViewController", "View"]
+- ["CSo16UIViewController", "canvas"]
+- !private ["CSo16UIViewController", "canvasAssociationKey"]
+- !private ["CSo16UIViewController", "objc_AssociationPolicy"]
+- !private ["CSo16UIViewController", "objc_getAssociatedObject"]
+- !private ["CSo16UIViewController", "objc_setAssociatedObject"]
+- !private ["CSo16UIViewController", "view"]
+- !private ["C6Cosmos4View", "deinit"]
+- !private ["C6Cosmos4View", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["OSC22objc_AssociationPolicy", "OBJC_ASSOCIATION_RETAIN"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P6Cosmos11EventSource"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "C6Cosmos4View"
+- "Ps12_Reflectable"
+- !private "OSC22objc_AssociationPolicy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "af10b8db1ce64dee7d601f82eb6f4cd5"

@@ -1,0 +1,389 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Curve"
+provides-nominal:
+- "C6Cosmos5Curve"
+provides-member:
+- ["C6Cosmos5Curve", ""]
+provides-dynamic-lookup:
+- "updatePath"
+- "batchUpdates"
+depends-top-level:
+- !private "CGPathGetBoundingBox"
+- !private "CGFloat"
+- !private "+="
+- "Point"
+- !private "CGPathMoveToPoint"
+- "Shape"
+- !private "CGPathAddCurveToPoint"
+- !private "-"
+- !private "CGPathCreateMutable"
+- !private "Path"
+- "Void"
+- "Curve"
+- "BooleanLiteralType"
+- !private "Rect"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGPathAddCurveToPoint"]
+- !private ["Ps9AnyObject", "CGPathCreateMutable"]
+- !private ["Ps9AnyObject", "CGPathGetBoundingBox"]
+- !private ["Ps9AnyObject", "CGPathMoveToPoint"]
+- !private ["Ps9AnyObject", "Path"]
+- ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "Rect"]
+- !private ["Ps9AnyObject", "adjustToFitPath"]
+- ["Ps9AnyObject", "batchUpdates"]
+- ["Ps9AnyObject", "center"]
+- ["Ps9AnyObject", "controlPoints"]
+- ["Ps9AnyObject", "endPoints"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "origin"]
+- !private ["Ps9AnyObject", "path"]
+- ["Ps9AnyObject", "pauseUpdates"]
+- ["Ps9AnyObject", "updatePath"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "CGPathAddCurveToPoint"]
+- !private ["Ps11CVarArgType", "CGPathCreateMutable"]
+- !private ["Ps11CVarArgType", "CGPathGetBoundingBox"]
+- !private ["Ps11CVarArgType", "CGPathMoveToPoint"]
+- !private ["Ps11CVarArgType", "Path"]
+- ["Ps11CVarArgType", "Point"]
+- !private ["Ps11CVarArgType", "Rect"]
+- !private ["Ps11CVarArgType", "adjustToFitPath"]
+- ["Ps11CVarArgType", "batchUpdates"]
+- ["Ps11CVarArgType", "center"]
+- ["Ps11CVarArgType", "controlPoints"]
+- ["Ps11CVarArgType", "endPoints"]
+- !private ["Ps11CVarArgType", "frame"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "origin"]
+- !private ["Ps11CVarArgType", "path"]
+- ["Ps11CVarArgType", "pauseUpdates"]
+- ["Ps11CVarArgType", "updatePath"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["C6Cosmos5Curve", "CGFloat"]
+- !private ["C6Cosmos5Curve", "CGPathAddCurveToPoint"]
+- !private ["C6Cosmos5Curve", "CGPathCreateMutable"]
+- !private ["C6Cosmos5Curve", "CGPathGetBoundingBox"]
+- !private ["C6Cosmos5Curve", "CGPathMoveToPoint"]
+- !private ["C6Cosmos5Curve", "Path"]
+- ["C6Cosmos5Curve", "Point"]
+- !private ["C6Cosmos5Curve", "Rect"]
+- ["C6Cosmos5Curve", "Void"]
+- !private ["C6Cosmos5Curve", "adjustToFitPath"]
+- ["C6Cosmos5Curve", "batchUpdates"]
+- ["C6Cosmos5Curve", "center"]
+- ["C6Cosmos5Curve", "controlPoints"]
+- ["C6Cosmos5Curve", "deinit"]
+- ["C6Cosmos5Curve", "endPoints"]
+- !private ["C6Cosmos5Curve", "frame"]
+- ["C6Cosmos5Curve", "init"]
+- ["C6Cosmos5Curve", "origin"]
+- !private ["C6Cosmos5Curve", "path"]
+- !private ["C6Cosmos5Curve", "pauseUpdates"]
+- ["C6Cosmos5Curve", "updatePath"]
+- !private ["C6Cosmos5Curve", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPathAddCurveToPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPathCreateMutable"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPathGetBoundingBox"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPathMoveToPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "Path"]
+- ["Ps28CustomDebugStringConvertible", "Point"]
+- !private ["Ps28CustomDebugStringConvertible", "Rect"]
+- !private ["Ps28CustomDebugStringConvertible", "adjustToFitPath"]
+- ["Ps28CustomDebugStringConvertible", "batchUpdates"]
+- ["Ps28CustomDebugStringConvertible", "center"]
+- ["Ps28CustomDebugStringConvertible", "controlPoints"]
+- ["Ps28CustomDebugStringConvertible", "endPoints"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "origin"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- ["Ps28CustomDebugStringConvertible", "pauseUpdates"]
+- ["Ps28CustomDebugStringConvertible", "updatePath"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGPathAddCurveToPoint"]
+- !private ["Ps23CustomStringConvertible", "CGPathCreateMutable"]
+- !private ["Ps23CustomStringConvertible", "CGPathGetBoundingBox"]
+- !private ["Ps23CustomStringConvertible", "CGPathMoveToPoint"]
+- !private ["Ps23CustomStringConvertible", "Path"]
+- ["Ps23CustomStringConvertible", "Point"]
+- !private ["Ps23CustomStringConvertible", "Rect"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "adjustToFitPath"]
+- ["Ps23CustomStringConvertible", "batchUpdates"]
+- ["Ps23CustomStringConvertible", "center"]
+- ["Ps23CustomStringConvertible", "controlPoints"]
+- ["Ps23CustomStringConvertible", "endPoints"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "origin"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- ["Ps23CustomStringConvertible", "pauseUpdates"]
+- ["Ps23CustomStringConvertible", "updatePath"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "x"]
+- !private ["Ps23CustomStringConvertible", "y"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGPathAddCurveToPoint"]
+- !private ["Ps9Equatable", "CGPathCreateMutable"]
+- !private ["Ps9Equatable", "CGPathGetBoundingBox"]
+- !private ["Ps9Equatable", "CGPathMoveToPoint"]
+- !private ["Ps9Equatable", "Path"]
+- ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "Rect"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "adjustToFitPath"]
+- ["Ps9Equatable", "batchUpdates"]
+- ["Ps9Equatable", "center"]
+- ["Ps9Equatable", "controlPoints"]
+- ["Ps9Equatable", "endPoints"]
+- !private ["Ps9Equatable", "frame"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "path"]
+- ["Ps9Equatable", "pauseUpdates"]
+- ["Ps9Equatable", "updatePath"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["P6Cosmos11EventSource", "CGFloat"]
+- !private ["P6Cosmos11EventSource", "CGPathAddCurveToPoint"]
+- !private ["P6Cosmos11EventSource", "CGPathCreateMutable"]
+- !private ["P6Cosmos11EventSource", "CGPathGetBoundingBox"]
+- !private ["P6Cosmos11EventSource", "CGPathMoveToPoint"]
+- !private ["P6Cosmos11EventSource", "Path"]
+- ["P6Cosmos11EventSource", "Point"]
+- !private ["P6Cosmos11EventSource", "Rect"]
+- !private ["P6Cosmos11EventSource", "adjustToFitPath"]
+- ["P6Cosmos11EventSource", "batchUpdates"]
+- ["P6Cosmos11EventSource", "center"]
+- ["P6Cosmos11EventSource", "controlPoints"]
+- ["P6Cosmos11EventSource", "endPoints"]
+- !private ["P6Cosmos11EventSource", "frame"]
+- ["P6Cosmos11EventSource", "init"]
+- ["P6Cosmos11EventSource", "origin"]
+- !private ["P6Cosmos11EventSource", "path"]
+- ["P6Cosmos11EventSource", "pauseUpdates"]
+- ["P6Cosmos11EventSource", "updatePath"]
+- !private ["P6Cosmos11EventSource", "view"]
+- ["P6Cosmos11EventSource", ""]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGPathAddCurveToPoint"]
+- !private ["Ps8Hashable", "CGPathCreateMutable"]
+- !private ["Ps8Hashable", "CGPathGetBoundingBox"]
+- !private ["Ps8Hashable", "CGPathMoveToPoint"]
+- !private ["Ps8Hashable", "Path"]
+- ["Ps8Hashable", "Point"]
+- !private ["Ps8Hashable", "Rect"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "adjustToFitPath"]
+- ["Ps8Hashable", "batchUpdates"]
+- ["Ps8Hashable", "center"]
+- ["Ps8Hashable", "controlPoints"]
+- ["Ps8Hashable", "endPoints"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "origin"]
+- !private ["Ps8Hashable", "path"]
+- ["Ps8Hashable", "pauseUpdates"]
+- ["Ps8Hashable", "updatePath"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["PSo8NSCoding", "center"]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPathAddCurveToPoint"]
+- !private ["CSo8NSObject", "CGPathCreateMutable"]
+- !private ["CSo8NSObject", "CGPathGetBoundingBox"]
+- !private ["CSo8NSObject", "CGPathMoveToPoint"]
+- !private ["CSo8NSObject", "Path"]
+- ["CSo8NSObject", "Point"]
+- !private ["CSo8NSObject", "Rect"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "adjustToFitPath"]
+- ["CSo8NSObject", "batchUpdates"]
+- ["CSo8NSObject", "center"]
+- ["CSo8NSObject", "controlPoints"]
+- ["CSo8NSObject", "endPoints"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "origin"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "pauseUpdates"]
+- ["CSo8NSObject", "updatePath"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPathAddCurveToPoint"]
+- !private ["PSo16NSObjectProtocol", "CGPathCreateMutable"]
+- !private ["PSo16NSObjectProtocol", "CGPathGetBoundingBox"]
+- !private ["PSo16NSObjectProtocol", "CGPathMoveToPoint"]
+- !private ["PSo16NSObjectProtocol", "Path"]
+- ["PSo16NSObjectProtocol", "Point"]
+- !private ["PSo16NSObjectProtocol", "Rect"]
+- !private ["PSo16NSObjectProtocol", "adjustToFitPath"]
+- ["PSo16NSObjectProtocol", "batchUpdates"]
+- ["PSo16NSObjectProtocol", "center"]
+- ["PSo16NSObjectProtocol", "controlPoints"]
+- ["PSo16NSObjectProtocol", "endPoints"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "origin"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- ["PSo16NSObjectProtocol", "pauseUpdates"]
+- ["PSo16NSObjectProtocol", "updatePath"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C6Cosmos4Path", "init"]
+- ["V6Cosmos5Point", "init"]
+- !private ["V6Cosmos5Point", "x"]
+- !private ["V6Cosmos5Point", "y"]
+- !private ["V6Cosmos4Rect", "init"]
+- !private ["C6Cosmos5Shape", "CGFloat"]
+- !private ["C6Cosmos5Shape", "CGPathAddCurveToPoint"]
+- !private ["C6Cosmos5Shape", "CGPathCreateMutable"]
+- !private ["C6Cosmos5Shape", "CGPathGetBoundingBox"]
+- !private ["C6Cosmos5Shape", "CGPathMoveToPoint"]
+- !private ["C6Cosmos5Shape", "Path"]
+- ["C6Cosmos5Shape", "Point"]
+- !private ["C6Cosmos5Shape", "Rect"]
+- ["C6Cosmos5Shape", "Void"]
+- !private ["C6Cosmos5Shape", "adjustToFitPath"]
+- ["C6Cosmos5Shape", "batchUpdates"]
+- ["C6Cosmos5Shape", "center"]
+- ["C6Cosmos5Shape", "controlPoints"]
+- ["C6Cosmos5Shape", "endPoints"]
+- !private ["C6Cosmos5Shape", "frame"]
+- ["C6Cosmos5Shape", "init"]
+- ["C6Cosmos5Shape", "origin"]
+- !private ["C6Cosmos5Shape", "path"]
+- ["C6Cosmos5Shape", "pauseUpdates"]
+- ["C6Cosmos5Shape", "updatePath"]
+- !private ["C6Cosmos5Shape", "view"]
+- ["C6Cosmos5Shape", ""]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo12UIAppearance", "center"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["CSo11UIResponder", "center"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["CSo6UIView", "center"]
+- !private ["CSo6UIView", "frame"]
+- !private ["C6Cosmos4View", "CGFloat"]
+- !private ["C6Cosmos4View", "CGPathAddCurveToPoint"]
+- !private ["C6Cosmos4View", "CGPathCreateMutable"]
+- !private ["C6Cosmos4View", "CGPathGetBoundingBox"]
+- !private ["C6Cosmos4View", "CGPathMoveToPoint"]
+- !private ["C6Cosmos4View", "Path"]
+- ["C6Cosmos4View", "Point"]
+- !private ["C6Cosmos4View", "Rect"]
+- ["C6Cosmos4View", "Void"]
+- !private ["C6Cosmos4View", "adjustToFitPath"]
+- ["C6Cosmos4View", "batchUpdates"]
+- ["C6Cosmos4View", "center"]
+- ["C6Cosmos4View", "controlPoints"]
+- ["C6Cosmos4View", "endPoints"]
+- !private ["C6Cosmos4View", "frame"]
+- ["C6Cosmos4View", "origin"]
+- !private ["C6Cosmos4View", "path"]
+- ["C6Cosmos4View", "pauseUpdates"]
+- ["C6Cosmos4View", "updatePath"]
+- !private ["C6Cosmos4View", "view"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "center"]
+- !private ["Ps12_Reflectable", "frame"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "origin"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "C6Cosmos5Curve"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P6Cosmos11EventSource"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C6Cosmos4Path"
+- "V6Cosmos5Point"
+- !private "V6Cosmos4Rect"
+- "C6Cosmos5Shape"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "C6Cosmos4View"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "ee8bb3c3e11e1eee2465d88aa4eafd35"

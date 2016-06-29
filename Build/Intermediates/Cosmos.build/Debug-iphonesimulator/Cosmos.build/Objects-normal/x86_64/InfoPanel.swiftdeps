@@ -1,0 +1,105 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InfoPanel"
+provides-nominal:
+- "C6Cosmos9InfoPanel"
+provides-member:
+- ["C6Cosmos9InfoPanel", ""]
+provides-dynamic-lookup:
+- "setup"
+depends-top-level:
+- "InfoPanel"
+- "CanvasController"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "setup"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "setup"]
+- ["Ps11CVarArgType", ""]
+- ["C6Cosmos16CanvasController", "init"]
+- ["C6Cosmos16CanvasController", "setup"]
+- ["C6Cosmos16CanvasController", ""]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "setup"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "setup"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "setup"]
+- ["Ps9Equatable", ""]
+- ["P6Cosmos11EventSource", "init"]
+- ["P6Cosmos11EventSource", "setup"]
+- ["P6Cosmos11EventSource", ""]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "setup"]
+- ["Ps8Hashable", ""]
+- ["C6Cosmos9InfoPanel", "deinit"]
+- ["C6Cosmos9InfoPanel", "init"]
+- ["C6Cosmos9InfoPanel", "setup"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "setup"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "setup"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "setup"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "setup"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "setup"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "setup"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "setup"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "setup"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "setup"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "setup"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "setup"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "C6Cosmos16CanvasController"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P6Cosmos11EventSource"
+- "Ps8Hashable"
+- "C6Cosmos9InfoPanel"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "7ae990fb0e90a06ce32f53fbbedd4e38"

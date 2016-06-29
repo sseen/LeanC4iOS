@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QuadCurve"
+provides-nominal:
+- "C6Cosmos9QuadCurve"
+provides-member:
+- ["C6Cosmos9QuadCurve", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Point"
+- "Curve"
+- "QuadCurve"
+depends-member:
+- ["Ps9AnyObject", "Point"]
+- ["Ps9AnyObject", "controlPoint"]
+- !private ["Ps9AnyObject", "controlPoints"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "Point"]
+- ["Ps11CVarArgType", "controlPoint"]
+- !private ["Ps11CVarArgType", "controlPoints"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["C6Cosmos5Curve", "Point"]
+- ["C6Cosmos5Curve", "controlPoint"]
+- !private ["C6Cosmos5Curve", "controlPoints"]
+- ["C6Cosmos5Curve", "init"]
+- ["C6Cosmos5Curve", ""]
+- ["Ps28CustomDebugStringConvertible", "Point"]
+- ["Ps28CustomDebugStringConvertible", "controlPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "controlPoints"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Point"]
+- ["Ps23CustomStringConvertible", "controlPoint"]
+- !private ["Ps23CustomStringConvertible", "controlPoints"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Point"]
+- ["Ps9Equatable", "controlPoint"]
+- !private ["Ps9Equatable", "controlPoints"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["P6Cosmos11EventSource", "Point"]
+- ["P6Cosmos11EventSource", "controlPoint"]
+- !private ["P6Cosmos11EventSource", "controlPoints"]
+- ["P6Cosmos11EventSource", "init"]
+- ["P6Cosmos11EventSource", ""]
+- ["Ps8Hashable", "Point"]
+- ["Ps8Hashable", "controlPoint"]
+- !private ["Ps8Hashable", "controlPoints"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "Point"]
+- ["CSo8NSObject", "controlPoint"]
+- !private ["CSo8NSObject", "controlPoints"]
+- ["PSo16NSObjectProtocol", "Point"]
+- ["PSo16NSObjectProtocol", "controlPoint"]
+- !private ["PSo16NSObjectProtocol", "controlPoints"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["V6Cosmos5Point", "init"]
+- ["C6Cosmos9QuadCurve", "Point"]
+- ["C6Cosmos9QuadCurve", "controlPoint"]
+- !private ["C6Cosmos9QuadCurve", "controlPoints"]
+- ["C6Cosmos9QuadCurve", "deinit"]
+- ["C6Cosmos9QuadCurve", "init"]
+- ["C6Cosmos5Shape", "Point"]
+- ["C6Cosmos5Shape", "controlPoint"]
+- !private ["C6Cosmos5Shape", "controlPoints"]
+- ["C6Cosmos5Shape", "init"]
+- ["C6Cosmos4View", "Point"]
+- ["C6Cosmos4View", "controlPoint"]
+- !private ["C6Cosmos4View", "controlPoints"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "C6Cosmos5Curve"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P6Cosmos11EventSource"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "V6Cosmos5Point"
+- "C6Cosmos9QuadCurve"
+- "C6Cosmos5Shape"
+- "C6Cosmos4View"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "312720e03a6d1adf5c468ffa2bf258f5"
