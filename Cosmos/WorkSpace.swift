@@ -25,14 +25,10 @@ let cosmosbkgd = Color(red: 0.078, green: 0.118, blue: 0.306, alpha: 1.0)
 
 class WorkSpace: CanvasController {
     let infiniteScrollView = InfiniteScrollView()
+    var background = ParallexBackground()
     
     override func setup() {
-        infiniteScrollView.pagingEnabled = true
-        infiniteScrollView.frame = CGRect(canvas.frame)
-        
-        canvas.add(infiniteScrollView)
-        
-        addVisualIndicators()
+        canvas.add(background.canvas)
         
     }
     

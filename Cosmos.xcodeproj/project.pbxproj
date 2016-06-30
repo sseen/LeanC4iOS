@@ -99,6 +99,7 @@
 		1F4A80151C8AAA5E00BE1307 /* StarsBig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A80071C8AAA5E00BE1307 /* StarsBig.swift */; };
 		1F4A80161C8AAA5E00BE1307 /* StarsSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A80081C8AAA5E00BE1307 /* StarsSmall.swift */; };
 		1F4A80191C8AABBB00BE1307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4A80181C8AABBB00BE1307 /* LaunchScreen.storyboard */; };
+		92BF81B31D24C827002C6220 /* ParallaxBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF81B21D24C827002C6220 /* ParallaxBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +209,7 @@
 		1F4A80071C8AAA5E00BE1307 /* StarsBig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarsBig.swift; sourceTree = "<group>"; };
 		1F4A80081C8AAA5E00BE1307 /* StarsSmall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarsSmall.swift; sourceTree = "<group>"; };
 		1F4A80181C8AABBB00BE1307 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92BF81B21D24C827002C6220 /* ParallaxBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				1F4A7FD21C8AA69400BE1307 /* WorkSpace.swift */,
+				92BF81B21D24C827002C6220 /* ParallaxBackground.swift */,
 				1F4A80171C8AAA6500BE1307 /* Source */,
 				1F4A7FFA1C8AAA2700BE1307 /* Audio */,
 				1F4A801A1C8AABD900BE1307 /* Other Files */,
@@ -584,6 +587,7 @@
 				1F4A7F671C8AA69400BE1307 /* Font.swift in Sources */,
 				1F4A7F7D1C8AA69400BE1307 /* Movie.swift in Sources */,
 				1F4A7F4C1C8AA69400BE1307 /* Point.swift in Sources */,
+				92BF81B31D24C827002C6220 /* ParallaxBackground.swift in Sources */,
 				1F4A7FCF1C8AA69400BE1307 /* Sharpen.swift in Sources */,
 				1F4A7FC51C8AA69400BE1307 /* DotScreen.swift in Sources */,
 				1F4A7F651C8AA69400BE1307 /* Filter.swift in Sources */,
@@ -797,6 +801,7 @@
 				1F4A7FEC1C8AA69400BE1307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F4A7FED1C8AA69400BE1307 /* Build configuration list for PBXNativeTarget "CosmosTests" */ = {
 			isa = XCConfigurationList;
@@ -805,6 +810,7 @@
 				1F4A7FEF1C8AA69400BE1307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -306,6 +306,8 @@ SWIFT_CLASS("_TtC6Cosmos3Arc")
 
 SWIFT_CLASS("_TtC6Cosmos24AstrologicalSignProvider")
 @interface AstrologicalSignProvider : NSObject
++ (AstrologicalSignProvider * _Nonnull)sharedInstance;
+@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull order;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1270,6 +1272,20 @@ SWIFT_CLASS("_TtC6Cosmos5Movie")
 @end
 
 
+SWIFT_CLASS("_TtC6Cosmos18ParallexBackground")
+@interface ParallexBackground : CanvasController
+@property (nonatomic, readonly) CGFloat signCount;
+@property (nonatomic, readonly, copy) NSArray<NSNumber *> * _Nonnull speeds;
+@property (nonatomic) NSInteger scrollviewOffsetContext;
+@property (nonatomic, copy) NSArray<InfiniteScrollView *> * _Nonnull scrollviews;
+- (InfiniteScrollView * _Nonnull)createLayer:(CGFloat)speed;
+- (void)setup;
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSString *, id> * _Nullable)change context:(void * _Null_unspecified)context;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 /// Extension for CAShapeLayer that allows overriding the actions for specific properties.
 SWIFT_CLASS("_TtC6Cosmos11PlayerLayer")
@@ -1783,6 +1799,7 @@ SWIFT_CLASS("_TtC6Cosmos5Wedge")
 SWIFT_CLASS("_TtC6Cosmos9WorkSpace")
 @interface WorkSpace : CanvasController
 @property (nonatomic, readonly, strong) InfiniteScrollView * _Nonnull infiniteScrollView;
+@property (nonatomic, strong) ParallexBackground * _Nonnull background;
 - (void)setup;
 - (void)addVisualIndicators;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
