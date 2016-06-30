@@ -26,6 +26,9 @@ public class InfiniteScrollView: UIScrollView {
         
         var curr = contentOffset
         
+        print(curr.x, contentSize.width, frame.width)
+        
+        
         if curr.x < 0 {
             curr.x = contentSize.width - frame.width
             contentOffset = curr

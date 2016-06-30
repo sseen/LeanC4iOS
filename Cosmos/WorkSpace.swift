@@ -27,6 +27,7 @@ class WorkSpace: CanvasController {
     let infiniteScrollView = InfiniteScrollView()
     
     override func setup() {
+        infiniteScrollView.pagingEnabled = true
         infiniteScrollView.frame = CGRect(canvas.frame)
         
         canvas.add(infiniteScrollView)
@@ -42,16 +43,32 @@ class WorkSpace: CanvasController {
         // 指示器的偏移量
         let dx = 40.0
         // 总宽度
-        let width = Double(count) * gap + dx
+        let width = Double(count + 1) * gap + dx
         
         for x in 0...count {
             let point = Point(Double(x) * gap + dx, canvas.center.y)
-            let ts = TextShape(text: "\(x)")
-            ts?.center  = point
-            infiniteScrollView.add(ts)
+            createIndicator("\(x)", at: point)
         }
         
-        infiniteScrollView.contentSize = CGSizeMake(CGFloat(width + gap), 0)
+        // 
+        var x:Int = 0
+        var offset = dx
+        
+        while offset < Double(infiniteScrollView.frame.size.width) {
+            let point = Point(width + offset, canvas.center.y)
+            createIndicator("\(x)", at: point)
+            offset += gap
+            x += 1
+        }
+        
+        infiniteScrollView.contentSize = CGSizeMake(CGFloat(width) + infiniteScrollView.frame.size.width, 0)
+    }
+    
+    func createIndicator(text: String, at point: Point) {
+        let ts = TextShape(text: text)
+        ts?.center = point
+        
+        infiniteScrollView.add(ts)
     }
     
 }
