@@ -9,32 +9,33 @@ provides-nominal:
 provides-member:
 - ["C6Cosmos9WorkSpace", ""]
 provides-dynamic-lookup:
+- "setup"
+- "infiniteScrollView"
 - "addVisualIndicators"
 - "background"
-- "infiniteScrollView"
-- "setup"
 depends-top-level:
-- !private "CGSizeMake"
-- !private "+="
-- "Color"
-- "ParallexBackground"
-- !private "+"
-- "cosmosbkgd"
-- "InfiniteScrollView"
-- "String"
-- !private "Double"
-- !private "TextShape"
-- !private "CGFloat"
-- !private "..."
-- "WorkSpace"
-- !private "StringLiteralType"
-- "Point"
-- "cosmosprpl"
-- !private "*"
-- "CanvasController"
-- !private "Int"
-- !private "<"
 - "cosmosblue"
+- !private "CGFloat"
+- !private "Double"
+- !private "StringLiteralType"
+- !private "Int"
+- !private "+="
+- !private "SignLines"
+- "cosmosbkgd"
+- !private "..."
+- !private "TextShape"
+- "CanvasController"
+- !private "<"
+- "InfiniteScrollView"
+- "ParallexBackground"
+- "cosmosprpl"
+- !private "+"
+- "Color"
+- "Point"
+- "WorkSpace"
+- !private "CGSizeMake"
+- !private "*"
+- "String"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "CGFloat"]
@@ -43,6 +44,7 @@ depends-member:
 - ["Ps9AnyObject", "InfiniteScrollView"]
 - ["Ps9AnyObject", "ParallexBackground"]
 - !private ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "SignLines"]
 - !private ["Ps9AnyObject", "TextShape"]
 - !private ["Ps9AnyObject", "add"]
 - ["Ps9AnyObject", "addVisualIndicators"]
@@ -55,6 +57,7 @@ depends-member:
 - ["Ps9AnyObject", "infiniteScrollView"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "setup"]
+- !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", ""]
 - !private ["Ps22BidirectionalIndexType", "Distance"]
 - !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
@@ -78,6 +81,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "IntegerLiteralType"]
 - ["Ps11CVarArgType", "ParallexBackground"]
 - !private ["Ps11CVarArgType", "Point"]
+- !private ["Ps11CVarArgType", "SignLines"]
 - !private ["Ps11CVarArgType", "TextShape"]
 - !private ["Ps11CVarArgType", "_DisabledRangeIndex"]
 - !private ["Ps11CVarArgType", "add"]
@@ -91,6 +95,7 @@ depends-member:
 - ["Ps11CVarArgType", "infiniteScrollView"]
 - ["Ps11CVarArgType", "init"]
 - ["Ps11CVarArgType", "setup"]
+- !private ["Ps11CVarArgType", "view"]
 - ["Ps11CVarArgType", ""]
 - !private ["C6Cosmos16CanvasController", "CGFloat"]
 - !private ["C6Cosmos16CanvasController", "CGSizeMake"]
@@ -99,6 +104,7 @@ depends-member:
 - !private ["C6Cosmos16CanvasController", "Int"]
 - ["C6Cosmos16CanvasController", "ParallexBackground"]
 - ["C6Cosmos16CanvasController", "Point"]
+- !private ["C6Cosmos16CanvasController", "SignLines"]
 - ["C6Cosmos16CanvasController", "String"]
 - !private ["C6Cosmos16CanvasController", "TextShape"]
 - ["C6Cosmos16CanvasController", "addVisualIndicators"]
@@ -108,6 +114,7 @@ depends-member:
 - ["C6Cosmos16CanvasController", "infiniteScrollView"]
 - ["C6Cosmos16CanvasController", "init"]
 - ["C6Cosmos16CanvasController", "setup"]
+- !private ["C6Cosmos16CanvasController", "view"]
 - ["C6Cosmos16CanvasController", ""]
 - !private ["Vs9Character", "deinit"]
 - !private ["Vs14ClosedInterval", "deinit"]
@@ -124,6 +131,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "InfiniteScrollView"]
 - ["Ps28CustomDebugStringConvertible", "ParallexBackground"]
 - !private ["Ps28CustomDebugStringConvertible", "Point"]
+- !private ["Ps28CustomDebugStringConvertible", "SignLines"]
 - !private ["Ps28CustomDebugStringConvertible", "TextShape"]
 - !private ["Ps28CustomDebugStringConvertible", "add"]
 - ["Ps28CustomDebugStringConvertible", "addVisualIndicators"]
@@ -136,6 +144,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "infiniteScrollView"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "setup"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps23CustomStringConvertible", "CGFloat"]
 - !private ["Ps23CustomStringConvertible", "CGSizeMake"]
@@ -146,6 +155,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - ["Ps23CustomStringConvertible", "ParallexBackground"]
 - !private ["Ps23CustomStringConvertible", "Point"]
+- !private ["Ps23CustomStringConvertible", "SignLines"]
 - !private ["Ps23CustomStringConvertible", "TextShape"]
 - !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
@@ -160,6 +170,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "infiniteScrollView"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "setup"]
+- !private ["Ps23CustomStringConvertible", "view"]
 - !private ["Ps23CustomStringConvertible", "y"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Sd", "deinit"]
@@ -173,6 +184,7 @@ depends-member:
 - !private ["Ps9Equatable", "IntegerLiteralType"]
 - ["Ps9Equatable", "ParallexBackground"]
 - !private ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "SignLines"]
 - !private ["Ps9Equatable", "TextShape"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
@@ -188,6 +200,7 @@ depends-member:
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "setup"]
 - !private ["Ps9Equatable", "size"]
+- !private ["Ps9Equatable", "view"]
 - !private ["Ps9Equatable", "width"]
 - !private ["Ps9Equatable", "y"]
 - ["Ps9Equatable", ""]
@@ -197,6 +210,7 @@ depends-member:
 - ["P6Cosmos11EventSource", "InfiniteScrollView"]
 - ["P6Cosmos11EventSource", "ParallexBackground"]
 - !private ["P6Cosmos11EventSource", "Point"]
+- !private ["P6Cosmos11EventSource", "SignLines"]
 - !private ["P6Cosmos11EventSource", "TextShape"]
 - !private ["P6Cosmos11EventSource", "add"]
 - ["P6Cosmos11EventSource", "addVisualIndicators"]
@@ -207,6 +221,7 @@ depends-member:
 - ["P6Cosmos11EventSource", "infiniteScrollView"]
 - ["P6Cosmos11EventSource", "init"]
 - ["P6Cosmos11EventSource", "setup"]
+- !private ["P6Cosmos11EventSource", "view"]
 - ["P6Cosmos11EventSource", ""]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Sf", "deinit"]
@@ -224,6 +239,7 @@ depends-member:
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - ["Ps8Hashable", "ParallexBackground"]
 - !private ["Ps8Hashable", "Point"]
+- !private ["Ps8Hashable", "SignLines"]
 - !private ["Ps8Hashable", "TextShape"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
@@ -238,6 +254,7 @@ depends-member:
 - ["Ps8Hashable", "infiniteScrollView"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "setup"]
+- !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", ""]
 - !private ["Ps9Indexable", "Generator"]
 - !private ["C6Cosmos18InfiniteScrollView", "add"]
@@ -272,6 +289,7 @@ depends-member:
 - ["PSo8NSCoding", "InfiniteScrollView"]
 - ["PSo8NSCoding", "ParallexBackground"]
 - !private ["PSo8NSCoding", "Point"]
+- !private ["PSo8NSCoding", "SignLines"]
 - !private ["PSo8NSCoding", "TextShape"]
 - !private ["PSo8NSCoding", "add"]
 - ["PSo8NSCoding", "addVisualIndicators"]
@@ -283,6 +301,7 @@ depends-member:
 - ["PSo8NSCoding", "infiniteScrollView"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "setup"]
+- !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "CGFloat"]
@@ -291,6 +310,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "InfiniteScrollView"]
 - ["PSo26NSExtensionRequestHandling", "ParallexBackground"]
 - !private ["PSo26NSExtensionRequestHandling", "Point"]
+- !private ["PSo26NSExtensionRequestHandling", "SignLines"]
 - !private ["PSo26NSExtensionRequestHandling", "TextShape"]
 - ["PSo26NSExtensionRequestHandling", "addVisualIndicators"]
 - ["PSo26NSExtensionRequestHandling", "background"]
@@ -299,6 +319,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "infiniteScrollView"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "setup"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSObject", "CGFloat"]
@@ -308,6 +329,7 @@ depends-member:
 - !private ["CSo8NSObject", "Int"]
 - ["CSo8NSObject", "ParallexBackground"]
 - ["CSo8NSObject", "Point"]
+- !private ["CSo8NSObject", "SignLines"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "TextShape"]
 - !private ["CSo8NSObject", "add"]
@@ -321,12 +343,14 @@ depends-member:
 - ["CSo8NSObject", "infiniteScrollView"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "setup"]
+- !private ["CSo8NSObject", "view"]
 - !private ["PSo16NSObjectProtocol", "CGFloat"]
 - !private ["PSo16NSObjectProtocol", "CGSizeMake"]
 - !private ["PSo16NSObjectProtocol", "Double"]
 - ["PSo16NSObjectProtocol", "InfiniteScrollView"]
 - ["PSo16NSObjectProtocol", "ParallexBackground"]
 - !private ["PSo16NSObjectProtocol", "Point"]
+- !private ["PSo16NSObjectProtocol", "SignLines"]
 - !private ["PSo16NSObjectProtocol", "TextShape"]
 - !private ["PSo16NSObjectProtocol", "add"]
 - ["PSo16NSObjectProtocol", "addVisualIndicators"]
@@ -339,11 +363,11 @@ depends-member:
 - ["PSo16NSObjectProtocol", "infiniteScrollView"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "setup"]
+- !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - !private ["Ps16OutputStreamType", "init"]
-- !private ["C6Cosmos18ParallexBackground", "canvas"]
 - ["C6Cosmos18ParallexBackground", "init"]
 - !private ["V6Cosmos5Point", "init"]
 - !private ["V6Cosmos5Point", "y"]
@@ -355,6 +379,7 @@ depends-member:
 - !private ["Ps12SequenceType", "Element"]
 - !private ["Ps12SequenceType", "Generator"]
 - !private ["C6Cosmos5Shape", "center"]
+- !private ["C6Cosmos9SignLines", "init"]
 - !private ["Ps17SignedIntegerType", "Distance"]
 - !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
 - !private ["Ps17SignedIntegerType", "_DisabledRangeIndex"]
@@ -386,6 +411,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "InfiniteScrollView"]
 - ["PSo21UIAppearanceContainer", "ParallexBackground"]
 - !private ["PSo21UIAppearanceContainer", "Point"]
+- !private ["PSo21UIAppearanceContainer", "SignLines"]
 - !private ["PSo21UIAppearanceContainer", "TextShape"]
 - !private ["PSo21UIAppearanceContainer", "add"]
 - ["PSo21UIAppearanceContainer", "addVisualIndicators"]
@@ -397,6 +423,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "infiniteScrollView"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "setup"]
+- !private ["PSo21UIAppearanceContainer", "view"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "CGFloat"]
 - !private ["PSo18UIContentContainer", "CGSizeMake"]
@@ -404,6 +431,7 @@ depends-member:
 - ["PSo18UIContentContainer", "InfiniteScrollView"]
 - ["PSo18UIContentContainer", "ParallexBackground"]
 - !private ["PSo18UIContentContainer", "Point"]
+- !private ["PSo18UIContentContainer", "SignLines"]
 - !private ["PSo18UIContentContainer", "TextShape"]
 - ["PSo18UIContentContainer", "addVisualIndicators"]
 - ["PSo18UIContentContainer", "background"]
@@ -412,6 +440,7 @@ depends-member:
 - ["PSo18UIContentContainer", "infiniteScrollView"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "setup"]
+- !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo17UICoordinateSpace", "add"]
 - !private ["PSo17UICoordinateSpace", "contentSize"]
@@ -427,6 +456,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "InfiniteScrollView"]
 - ["PSo18UIFocusEnvironment", "ParallexBackground"]
 - !private ["PSo18UIFocusEnvironment", "Point"]
+- !private ["PSo18UIFocusEnvironment", "SignLines"]
 - !private ["PSo18UIFocusEnvironment", "TextShape"]
 - !private ["PSo18UIFocusEnvironment", "add"]
 - ["PSo18UIFocusEnvironment", "addVisualIndicators"]
@@ -438,6 +468,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "infiniteScrollView"]
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "setup"]
+- !private ["PSo18UIFocusEnvironment", "view"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo11UIResponder", "CGFloat"]
 - !private ["CSo11UIResponder", "CGSizeMake"]
@@ -446,6 +477,7 @@ depends-member:
 - !private ["CSo11UIResponder", "Int"]
 - ["CSo11UIResponder", "ParallexBackground"]
 - ["CSo11UIResponder", "Point"]
+- !private ["CSo11UIResponder", "SignLines"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "TextShape"]
 - !private ["CSo11UIResponder", "add"]
@@ -458,6 +490,7 @@ depends-member:
 - ["CSo11UIResponder", "infiniteScrollView"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "setup"]
+- !private ["CSo11UIResponder", "view"]
 - !private ["CSo12UIScrollView", "add"]
 - !private ["CSo12UIScrollView", "contentSize"]
 - !private ["CSo12UIScrollView", "frame"]
@@ -468,6 +501,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "InfiniteScrollView"]
 - ["PSo16UIStateRestoring", "ParallexBackground"]
 - !private ["PSo16UIStateRestoring", "Point"]
+- !private ["PSo16UIStateRestoring", "SignLines"]
 - !private ["PSo16UIStateRestoring", "TextShape"]
 - ["PSo16UIStateRestoring", "addVisualIndicators"]
 - ["PSo16UIStateRestoring", "background"]
@@ -476,6 +510,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "infiniteScrollView"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "setup"]
+- !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo18UITraitEnvironment", "CGFloat"]
 - !private ["PSo18UITraitEnvironment", "CGSizeMake"]
@@ -483,6 +518,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "InfiniteScrollView"]
 - ["PSo18UITraitEnvironment", "ParallexBackground"]
 - !private ["PSo18UITraitEnvironment", "Point"]
+- !private ["PSo18UITraitEnvironment", "SignLines"]
 - !private ["PSo18UITraitEnvironment", "TextShape"]
 - !private ["PSo18UITraitEnvironment", "add"]
 - ["PSo18UITraitEnvironment", "addVisualIndicators"]
@@ -494,6 +530,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "infiniteScrollView"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "setup"]
+- !private ["PSo18UITraitEnvironment", "view"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "add"]
 - !private ["CSo6UIView", "contentSize"]
@@ -506,6 +543,7 @@ depends-member:
 - !private ["CSo16UIViewController", "Int"]
 - ["CSo16UIViewController", "ParallexBackground"]
 - ["CSo16UIViewController", "Point"]
+- !private ["CSo16UIViewController", "SignLines"]
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "TextShape"]
 - ["CSo16UIViewController", "addVisualIndicators"]
@@ -515,6 +553,7 @@ depends-member:
 - ["CSo16UIViewController", "infiniteScrollView"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "setup"]
+- !private ["CSo16UIViewController", "view"]
 - !private ["Su", "deinit"]
 - !private ["Vs6UInt16", "deinit"]
 - !private ["Vs6UInt32", "deinit"]
@@ -531,6 +570,7 @@ depends-member:
 - !private ["C6Cosmos9WorkSpace", "Int"]
 - ["C6Cosmos9WorkSpace", "ParallexBackground"]
 - ["C6Cosmos9WorkSpace", "Point"]
+- !private ["C6Cosmos9WorkSpace", "SignLines"]
 - ["C6Cosmos9WorkSpace", "String"]
 - !private ["C6Cosmos9WorkSpace", "TextShape"]
 - ["C6Cosmos9WorkSpace", "addVisualIndicators"]
@@ -541,6 +581,7 @@ depends-member:
 - ["C6Cosmos9WorkSpace", "infiniteScrollView"]
 - ["C6Cosmos9WorkSpace", "init"]
 - ["C6Cosmos9WorkSpace", "setup"]
+- !private ["C6Cosmos9WorkSpace", "view"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
@@ -641,6 +682,7 @@ depends-nominal:
 - !private "Vs14RangeGenerator"
 - !private "Ps12SequenceType"
 - !private "C6Cosmos5Shape"
+- !private "C6Cosmos9SignLines"
 - !private "Ps17SignedIntegerType"
 - !private "Ps16SignedNumberType"
 - !private "Ps10Streamable"

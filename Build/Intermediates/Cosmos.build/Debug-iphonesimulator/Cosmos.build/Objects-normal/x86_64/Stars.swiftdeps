@@ -6,12 +6,15 @@ provides-nominal:
 provides-member:
 - ["C6Cosmos5Stars", ""]
 provides-dynamic-lookup:
+- "gapBetweenSigns"
 - "setup"
 depends-top-level:
-- "Stars"
-- "CanvasController"
 - "UIScrollViewDelegate"
+- "CanvasController"
+- "CGFloat"
+- "Stars"
 depends-member:
+- ["Ps9AnyObject", "gapBetweenSigns"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "scrollViewDidEndDecelerating"]
 - ["Ps9AnyObject", "scrollViewDidEndDragging"]
@@ -28,6 +31,8 @@ depends-member:
 - ["Ps9AnyObject", "setup"]
 - ["Ps9AnyObject", "viewForZoomingInScrollView"]
 - ["Ps9AnyObject", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps11CVarArgType", "gapBetweenSigns"]
 - ["Ps11CVarArgType", "init"]
 - ["Ps11CVarArgType", "scrollViewDidEndDecelerating"]
 - ["Ps11CVarArgType", "scrollViewDidEndDragging"]
@@ -44,6 +49,8 @@ depends-member:
 - ["Ps11CVarArgType", "setup"]
 - ["Ps11CVarArgType", "viewForZoomingInScrollView"]
 - ["Ps11CVarArgType", ""]
+- ["C6Cosmos16CanvasController", "CGFloat"]
+- ["C6Cosmos16CanvasController", "gapBetweenSigns"]
 - ["C6Cosmos16CanvasController", "init"]
 - ["C6Cosmos16CanvasController", "scrollViewDidEndDecelerating"]
 - ["C6Cosmos16CanvasController", "scrollViewDidEndDragging"]
@@ -60,6 +67,7 @@ depends-member:
 - ["C6Cosmos16CanvasController", "setup"]
 - ["C6Cosmos16CanvasController", "viewForZoomingInScrollView"]
 - ["C6Cosmos16CanvasController", ""]
+- ["Ps28CustomDebugStringConvertible", "gapBetweenSigns"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDecelerating"]
 - ["Ps28CustomDebugStringConvertible", "scrollViewDidEndDragging"]
@@ -76,6 +84,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "setup"]
 - ["Ps28CustomDebugStringConvertible", "viewForZoomingInScrollView"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "gapBetweenSigns"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "scrollViewDidEndDecelerating"]
 - ["Ps23CustomStringConvertible", "scrollViewDidEndDragging"]
@@ -92,6 +101,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "setup"]
 - ["Ps23CustomStringConvertible", "viewForZoomingInScrollView"]
 - ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "gapBetweenSigns"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "scrollViewDidEndDecelerating"]
 - ["Ps9Equatable", "scrollViewDidEndDragging"]
@@ -108,6 +118,7 @@ depends-member:
 - ["Ps9Equatable", "setup"]
 - ["Ps9Equatable", "viewForZoomingInScrollView"]
 - ["Ps9Equatable", ""]
+- ["P6Cosmos11EventSource", "gapBetweenSigns"]
 - ["P6Cosmos11EventSource", "init"]
 - ["P6Cosmos11EventSource", "scrollViewDidEndDecelerating"]
 - ["P6Cosmos11EventSource", "scrollViewDidEndDragging"]
@@ -124,6 +135,7 @@ depends-member:
 - ["P6Cosmos11EventSource", "setup"]
 - ["P6Cosmos11EventSource", "viewForZoomingInScrollView"]
 - ["P6Cosmos11EventSource", ""]
+- ["Ps8Hashable", "gapBetweenSigns"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "scrollViewDidEndDecelerating"]
 - ["Ps8Hashable", "scrollViewDidEndDragging"]
@@ -140,6 +152,7 @@ depends-member:
 - ["Ps8Hashable", "setup"]
 - ["Ps8Hashable", "viewForZoomingInScrollView"]
 - ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "gapBetweenSigns"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "scrollViewDidEndDecelerating"]
 - ["PSo8NSCoding", "scrollViewDidEndDragging"]
@@ -156,6 +169,7 @@ depends-member:
 - ["PSo8NSCoding", "setup"]
 - ["PSo8NSCoding", "viewForZoomingInScrollView"]
 - ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "gapBetweenSigns"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDecelerating"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDragging"]
@@ -172,6 +186,8 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "setup"]
 - ["PSo26NSExtensionRequestHandling", "viewForZoomingInScrollView"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "gapBetweenSigns"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "scrollViewDidEndDecelerating"]
 - ["CSo8NSObject", "scrollViewDidEndDragging"]
@@ -187,6 +203,7 @@ depends-member:
 - ["CSo8NSObject", "scrollViewWillEndDragging"]
 - ["CSo8NSObject", "setup"]
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
+- ["PSo16NSObjectProtocol", "gapBetweenSigns"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
@@ -203,7 +220,9 @@ depends-member:
 - ["PSo16NSObjectProtocol", "setup"]
 - ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
 - ["PSo16NSObjectProtocol", ""]
+- ["C6Cosmos5Stars", "CGFloat"]
 - ["C6Cosmos5Stars", "deinit"]
+- ["C6Cosmos5Stars", "gapBetweenSigns"]
 - ["C6Cosmos5Stars", "init"]
 - ["C6Cosmos5Stars", "scrollViewDidEndDecelerating"]
 - ["C6Cosmos5Stars", "scrollViewDidEndDragging"]
@@ -219,6 +238,7 @@ depends-member:
 - ["C6Cosmos5Stars", "scrollViewWillEndDragging"]
 - ["C6Cosmos5Stars", "setup"]
 - ["C6Cosmos5Stars", "viewForZoomingInScrollView"]
+- ["PSo21UIAppearanceContainer", "gapBetweenSigns"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDecelerating"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDragging"]
@@ -235,6 +255,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "setup"]
 - ["PSo21UIAppearanceContainer", "viewForZoomingInScrollView"]
 - ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "gapBetweenSigns"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDecelerating"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDragging"]
@@ -251,6 +272,7 @@ depends-member:
 - ["PSo18UIContentContainer", "setup"]
 - ["PSo18UIContentContainer", "viewForZoomingInScrollView"]
 - ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "gapBetweenSigns"]
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UIFocusEnvironment", "scrollViewDidEndDragging"]
@@ -267,6 +289,8 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "setup"]
 - ["PSo18UIFocusEnvironment", "viewForZoomingInScrollView"]
 - ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "gapBetweenSigns"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "scrollViewDidEndDecelerating"]
 - ["CSo11UIResponder", "scrollViewDidEndDragging"]
@@ -296,6 +320,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "scrollViewWillEndDragging"]
 - ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
 - ["PSo20UIScrollViewDelegate", ""]
+- ["PSo16UIStateRestoring", "gapBetweenSigns"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDecelerating"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDragging"]
@@ -312,6 +337,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "setup"]
 - ["PSo16UIStateRestoring", "viewForZoomingInScrollView"]
 - ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "gapBetweenSigns"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDragging"]
@@ -328,6 +354,8 @@ depends-member:
 - ["PSo18UITraitEnvironment", "setup"]
 - ["PSo18UITraitEnvironment", "viewForZoomingInScrollView"]
 - ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "CGFloat"]
+- ["CSo16UIViewController", "gapBetweenSigns"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "scrollViewDidEndDecelerating"]
 - ["CSo16UIViewController", "scrollViewDidEndDragging"]
@@ -345,6 +373,7 @@ depends-member:
 - ["CSo16UIViewController", "viewForZoomingInScrollView"]
 depends-nominal:
 - "Ps9AnyObject"
+- "V12CoreGraphics7CGFloat"
 - "Ps11CVarArgType"
 - "C6Cosmos16CanvasController"
 - "Ps28CustomDebugStringConvertible"
@@ -378,4 +407,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
-interface-hash: "f4cd8141d348b068991b539a6ed50118"
+interface-hash: "d9494b9e7e53ead1f0e2a805845a68d1"

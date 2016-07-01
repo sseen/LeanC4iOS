@@ -28,7 +28,8 @@ class WorkSpace: CanvasController {
     var background = ParallexBackground()
     
     override func setup() {
-        canvas.add(background.canvas)
+        let linesLayer = SignLines(frame: view.frame)
+        canvas.add(linesLayer)
         
     }
     

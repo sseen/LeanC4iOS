@@ -1498,8 +1498,13 @@ SWIFT_CLASS("_TtC6Cosmos10ShapeLayer")
 
 SWIFT_CLASS("_TtC6Cosmos9SignLines")
 @interface SignLines : InfiniteScrollView
+@property (nonatomic, copy) NSArray<NSArray<Line *> *> * _Null_unspecified lines;
+@property (nonatomic) NSInteger currentIndex;
+@property (nonatomic, readonly, copy) NSArray<Line *> * _Nonnull currentLines;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)revealCurrentSignLines;
+- (void)hideCurrentSignLines;
 @end
 
 
@@ -1514,6 +1519,7 @@ SWIFT_CLASS("_TtC6Cosmos4Star")
 
 SWIFT_CLASS("_TtC6Cosmos5Stars")
 @interface Stars : CanvasController <UIScrollViewDelegate>
+@property (nonatomic) CGFloat gapBetweenSigns;
 - (void)setup;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -1522,6 +1528,7 @@ SWIFT_CLASS("_TtC6Cosmos5Stars")
 
 SWIFT_CLASS("_TtC6Cosmos15StarsBackground")
 @interface StarsBackground : InfiniteScrollView
+- (nonnull instancetype)initWithFrame:(CGRect)frame imageName:(NSString * _Nonnull)imageName starCount:(NSInteger)starCount speed:(CGFloat)speed;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

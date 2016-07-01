@@ -20,6 +20,8 @@
 import UIKit
 
 class Stars : CanvasController, UIScrollViewDelegate {
+    var gapBetweenSigns : CGFloat = 10.0
+    
     override func setup() {
     }
 }

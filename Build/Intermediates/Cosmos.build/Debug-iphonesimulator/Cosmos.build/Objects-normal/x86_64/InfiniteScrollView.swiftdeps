@@ -8,10 +8,10 @@ provides-member:
 provides-dynamic-lookup:
 - "layoutSubviews"
 depends-top-level:
+- "InfiniteScrollView"
+- !private "-"
 - "UIScrollView"
 - !private "<"
-- !private "-"
-- "InfiniteScrollView"
 - !private ">="
 depends-member:
 - !private ["Ps16AbsoluteValuable", "IntegerLiteralType"]

@@ -20,5 +20,36 @@
 
 import UIKit
 
+var gapBetweenSigns : CGFloat = 10.0
+
 public class StarsBackground : InfiniteScrollView {
+    convenience public init(frame: CGRect, imageName: String, starCount: Int, speed: CGFloat) {
+        self.init(frame: frame)
+        
+        let adjusteFrameSize = frame.width * speed
+        let singleSignContentSize = adjusteFrameSize * gapBetweenSigns
+        let count = CGFloat(AstrologicalSignProvider.sharedInstance.order.count)
+        
+        contentSize = CGSizeMake(singleSignContentSize * count + frame.width, 1.0)
+        
+        for currentFrame in 0..<Int(count) {
+            let dx = Double(singleSignContentSize) * Double(currentFrame)
+            for _ in 0..<starCount {
+                let x = dx + random01() * Double(singleSignContentSize)
+                let y = random01() * Double(frame.size.height)
+                var pt = Point(x, y)
+                
+                let img = Image(imageName)!
+                img.center = pt
+                add(img)
+                
+                if currentFrame == 0{
+                    pt.x += Double(count * singleSignContentSize)
+                    let img = Image(imageName)!
+                    img.center = pt
+                    add(img)
+                }
+            }
+        }
+    }
 }
